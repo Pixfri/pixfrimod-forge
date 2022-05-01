@@ -1,5 +1,6 @@
 package fr.pixfri.pixfrimod;
 
+import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class PixfriMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

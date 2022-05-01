@@ -1,4 +1,12 @@
 {
   "item.pixfrimod.citrine": "Citrine",
-  "item.pixfrimod.raw_citrine": "Raw Citrine"
+  "item.pixfrimod.raw_citrine": "Raw Citrine",
+
+  "block.pixfrimod.citrine_block": "Block of Citrine",
+  "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
+  "block.pixfrimod.citrine_ore": "Citrine Ore",
+  "block.pixfrimod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.pixfrimod.endstone_citrine_ore": "End Stone Citrine Ore",
+  "block.pixfrimod.netherrack_citrine_ore": "Netherrack Citrine Ore"
+
 }

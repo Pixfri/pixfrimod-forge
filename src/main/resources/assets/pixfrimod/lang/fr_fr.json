@@ -1,4 +1,12 @@
 {
   "item.pixfrimod.citrine": "Citrine",
-  "item.pixfrimod.raw_citrine": "Citrine Brute"
+  "item.pixfrimod.raw_citrine": "Citrine Brute",
+
+  "block.pixfrimod.citrine_block": "Bloc de Citrine",
+  "block.pixfrimod.raw_citrine_block": "Bloc de Citrine brute",
+  "block.pixfrimod.citrine_ore": "Minerai de Citrine",
+  "block.pixfrimod.deepslate_citrine_ore": "Minerai de Citrine en Pierre des Abysses",
+  "block.pixfrimod.endstone_citrine_ore": "Minerai de Citrine en Pierre de l'End",
+  "block.pixfrimod.netherrack_citrine_ore": "Minerai de Citrine en Pierre du Nether"
+
 }
