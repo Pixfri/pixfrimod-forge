@@ -7,6 +7,7 @@
   "block.pixfrimod.citrine_ore": "Minerai de Citrine",
   "block.pixfrimod.deepslate_citrine_ore": "Minerai de Citrine en Pierre des Abysses",
   "block.pixfrimod.endstone_citrine_ore": "Minerai de Citrine en Pierre de l'End",
-  "block.pixfrimod.netherrack_citrine_ore": "Minerai de Citrine en Pierre du Nether"
+  "block.pixfrimod.netherrack_citrine_ore": "Minerai de Citrine en Pierre du Nether",
 
+  "itemGroup.pixfrimod_tab": "Pixfri Mod"
 }

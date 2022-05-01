@@ -7,6 +7,7 @@
   "block.pixfrimod.citrine_ore": "Citrine Ore",
   "block.pixfrimod.deepslate_citrine_ore": "Deepslate Citrine Ore",
   "block.pixfrimod.endstone_citrine_ore": "End Stone Citrine Ore",
-  "block.pixfrimod.netherrack_citrine_ore": "Netherrack Citrine Ore"
+  "block.pixfrimod.netherrack_citrine_ore": "Netherrack Citrine Ore",
 
+  "itemGroup.pixfrimod_tab": "Pixfri Mod"
 }
