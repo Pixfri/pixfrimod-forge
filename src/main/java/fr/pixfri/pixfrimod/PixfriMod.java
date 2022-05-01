@@ -17,6 +17,7 @@ public class PixfriMod
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
+    // main method of the modR
     public PixfriMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
