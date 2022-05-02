@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pixfrimod:citrine_ore",
+    "pixfrimod:deepslate_citrine_ore",
+    "pixfrimod:netherrack_citrine_ore",
+    "pixfrimod:endstone_citrine_ore",
+    "pixfrimod:citrine_block",
+    "pixfrimod:raw_citrine_block"
+  ]
+}

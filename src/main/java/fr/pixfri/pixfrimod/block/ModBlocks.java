@@ -38,7 +38,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
