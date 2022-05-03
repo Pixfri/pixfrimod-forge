@@ -1,6 +1,7 @@
 {
   "item.pixfrimod.citrine": "Citrine",
   "item.pixfrimod.raw_citrine": "Citrine Brute",
+  "item.pixfrimod.dowsing_rod": "Baguette de Radiesthésie",
 
   "block.pixfrimod.citrine_block": "Bloc de Citrine",
   "block.pixfrimod.raw_citrine_block": "Bloc de Citrine brute",
@@ -8,6 +9,9 @@
   "block.pixfrimod.deepslate_citrine_ore": "Minerai de Citrine en Pierre des Abysses",
   "block.pixfrimod.endstone_citrine_ore": "Minerai de Citrine en Pierre de l'End",
   "block.pixfrimod.netherrack_citrine_ore": "Minerai de Citrine en Pierre du Nether",
+  "block.pixfrimod.speedy_block": "Bloc de rapidité",
 
-  "itemGroup.pixfrimod_tab": "Pixfri Mod"
+  "itemGroup.pixfrimod_tab": "Pixfri Mod",
+
+  "item.pixfrimod.dowsing_rod.no_valuables": "Aucun objet trouvé !"
 }

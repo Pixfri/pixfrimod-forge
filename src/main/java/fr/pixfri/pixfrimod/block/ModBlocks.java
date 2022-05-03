@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod.block;
 
 import fr.pixfri.pixfrimod.PixfriMod;
+import fr.pixfri.pixfrimod.block.custom.SpeedyBlock;
 import fr.pixfri.pixfrimod.item.ModCreativeModeTab;
 import fr.pixfri.pixfrimod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -44,6 +45,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
 
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

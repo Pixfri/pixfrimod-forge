@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod.item;
 
 import fr.pixfri.pixfrimod.PixfriMod;
+import fr.pixfri.pixfrimod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).durability(16)));
 
 
 

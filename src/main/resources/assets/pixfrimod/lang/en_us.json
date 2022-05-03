@@ -1,6 +1,7 @@
 {
   "item.pixfrimod.citrine": "Citrine",
   "item.pixfrimod.raw_citrine": "Raw Citrine",
+  "item.pixfrimod.dowsing_rod": "Downsing Rod",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -8,6 +9,9 @@
   "block.pixfrimod.deepslate_citrine_ore": "Deepslate Citrine Ore",
   "block.pixfrimod.endstone_citrine_ore": "End Stone Citrine Ore",
   "block.pixfrimod.netherrack_citrine_ore": "Netherrack Citrine Ore",
+  "block.pixfrimod.speedy_block": "Speedy Block",
 
-  "itemGroup.pixfrimod_tab": "Pixfri Mod"
+  "itemGroup.pixfrimod_tab": "Pixfri Mod",
+
+  "item.pixfrimod.dowsing_rod.no_valuables": "No Valuables Found!"
 }
