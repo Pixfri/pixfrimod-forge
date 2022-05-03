@@ -1,7 +1,9 @@
 {
   "item.pixfrimod.citrine": "Citrine",
   "item.pixfrimod.raw_citrine": "Raw Citrine",
-  "item.pixfrimod.dowsing_rod": "Downsing Rod",
+  "item.pixfrimod.dowsing_rod": "Dowsing Rod",
+  "item.pixfrimod.cucumber": "Cucumber",
+  "item.pixfrimod.coal_coke": "Coal Coke",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -13,5 +15,9 @@
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
-  "item.pixfrimod.dowsing_rod.no_valuables": "No Valuables Found!"
+  "item.pixfrimod.dowsing_rod.no_valuables": "No Valuables Found!",
+
+  "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Right Click to find valuables!",
+  "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Press §eSHIFT§r for more information!",
+  "tooltip.pixfrimod.block.speedy_block": "I am speed!"
 }

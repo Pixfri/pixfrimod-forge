@@ -1,7 +1,9 @@
 {
   "item.pixfrimod.citrine": "Citrine",
   "item.pixfrimod.raw_citrine": "Citrine Brute",
-  "item.pixfrimod.dowsing_rod": "Baguette de Radiesthésie",
+  "item.pixfrimod.dowsing_rod": "Baguette de détection de Minerais",
+  "item.pixfrimod.cucumber": "Concombre",
+  "item.pixfrimod.coal_coke": "Charbon Compressé",
 
   "block.pixfrimod.citrine_block": "Bloc de Citrine",
   "block.pixfrimod.raw_citrine_block": "Bloc de Citrine brute",
@@ -13,5 +15,9 @@
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
-  "item.pixfrimod.dowsing_rod.no_valuables": "Aucun objet trouvé !"
+  "item.pixfrimod.dowsing_rod.no_valuables": "Aucun objet trouvé !",
+
+  "tooltip.pixfrimod.dowsing_rod.tooltip.shift": "Faites clic droit pour trouver des minerais dans le sol",
+  "tooltip.pixfrimod.dowsing_rod.tooltip": "Appuyez sur la touche §eMAJUSCULE§r pour plus d'informations",
+  "tooltip.pixfrimod.block.speedy_block": "Vive la vitesse!"
 }
