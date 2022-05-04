@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "SCS"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:gems/citrine"
+    },
+    "S":{
+      "item": "pixfrimod:citrine_stick"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:citrine_fence_gate",
+    "count": 1
+  }
+}

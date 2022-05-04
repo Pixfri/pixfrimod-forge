@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "pixfrimod:citrine_block"
+  },
+  "result": "pixfrimod:citrine_slab",
+  "count": 2
+}

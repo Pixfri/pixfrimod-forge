@@ -6,6 +6,11 @@
     "pixfrimod:netherrack_citrine_ore",
     "pixfrimod:endstone_citrine_ore",
     "pixfrimod:citrine_block",
-    "pixfrimod:raw_citrine_block"
+    "pixfrimod:raw_citrine_block",
+    "pixfrimod:citrine_stairs",
+    "pixfrimod:citrine_slab",
+    "pixfrimod:citrine_wall",
+    "pixfrimod:citrine_fence",
+    "pixfrimod:citrine_fence_gate"
   ]
 }

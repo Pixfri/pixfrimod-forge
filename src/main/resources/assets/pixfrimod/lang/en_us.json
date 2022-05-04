@@ -4,6 +4,7 @@
   "item.pixfrimod.dowsing_rod": "Dowsing Rod",
   "item.pixfrimod.cucumber": "Cucumber",
   "item.pixfrimod.coal_coke": "Coal Coke",
+  "item.pixfrimod.citrine_stick": "Citrine Stick",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -12,6 +13,11 @@
   "block.pixfrimod.endstone_citrine_ore": "End Stone Citrine Ore",
   "block.pixfrimod.netherrack_citrine_ore": "Netherrack Citrine Ore",
   "block.pixfrimod.speedy_block": "Speedy Block",
+  "block.pixfrimod.citrine_slab": "Citrine Slab",
+  "block.pixfrimod.citrine_stairs": "Citrine Stairs",
+  "block.pixfrimod.citrine_fence": "Citrine Fence",
+  "block.pixfrimod.citrine_wall": "Citrine Wall",
+  "block.pixfrimod.citrine_fence_gate": "Citrine Fence Gate",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
