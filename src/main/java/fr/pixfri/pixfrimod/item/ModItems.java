@@ -4,6 +4,7 @@ import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.item.custom.CoalCokeItem;
 import fr.pixfri.pixfrimod.item.custom.DowsingRodItem;
 import fr.pixfri.pixfrimod.item.custom.LevitationSwordItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -53,7 +54,23 @@ public class ModItems {
 
     public static final RegistryObject<Item> CITRINE_HOE = ITEMS.register("citrine_hoe",
             () -> new HoeItem(ModTiers.CITRINE, 0, 0f,
-                        new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_HELMET = ITEMS.register("citrine_helmet",
+            () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_CHESTPLATE = ITEMS.register("citrine_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_LEGGING = ITEMS.register("citrine_leggings",
+            () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_BOOTS = ITEMS.register("citrine_boots",
+            () -> new ArmorItem(ModArmorMaterials.CITRINE, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
 
     public static void register(IEventBus eventBus) {
