@@ -31,6 +31,8 @@ public class ModItems {
     public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
             () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
+    public static final RegistryObject<Item> EBONY = ITEMS.register("ebony",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
 
     public static void register(IEventBus eventBus) {

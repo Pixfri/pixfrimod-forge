@@ -5,6 +5,7 @@
   "item.pixfrimod.cucumber": "Concombre",
   "item.pixfrimod.coal_coke": "Charbon Compressé",
   "item.pixfrimod.citrine_stick": "Bâton de Citrine",
+  "item.pixfrimod.ebony": "Ebony",
 
   "block.pixfrimod.citrine_block": "Bloc de Citrine",
   "block.pixfrimod.raw_citrine_block": "Bloc de Citrine brute",
@@ -18,6 +19,10 @@
   "block.pixfrimod.citrine_fence": "Barrière de Citrine",
   "block.pixfrimod.citrine_wall": "Mur de Citrine",
   "block.pixfrimod.citrine_fence_gate": "Portillon en Citrine",
+  "block.pixfrimod.citrine_button": "Bouton en Citrine",
+  "block.pixfrimod.citrine_pressure_plate": "Plaque de Pression en Citrine",
+  "block.pixfrimod.ebony_door": "Porte en Ebony",
+  "block.pixfrimod.ebony_trapdoor": "Trappe en Ebony",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 

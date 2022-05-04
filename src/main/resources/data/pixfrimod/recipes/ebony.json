@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/citrine"
+    },
+    {
+      "tag": "forge:gems/citrine"
+    },
+    {
+      "tag": "forge:gems/citrine"
+    },
+    {
+      "tag": "forge:gems/citrine"
+    },
+    {
+      "item": "pixfrimod:coal_coke"
+    },
+    {
+      "item": "pixfrimod:coal_coke"
+    },
+    {
+      "item": "pixfrimod:coal_coke"
+    },
+    {
+      "item": "pixfrimod:coal_coke"
+    }
+  ],
+  "result": {
+    "item": "pixfrimod:ebony",
+    "count": 4
+  }
+}

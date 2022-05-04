@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "pixfrimod:ebony"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:ebony_trapdoor",
+    "count": 4
+  }
+}

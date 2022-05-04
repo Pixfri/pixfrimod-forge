@@ -5,6 +5,7 @@
   "item.pixfrimod.cucumber": "Cucumber",
   "item.pixfrimod.coal_coke": "Coal Coke",
   "item.pixfrimod.citrine_stick": "Citrine Stick",
+  "item.pixfrimod.ebony": "Ebony",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -18,6 +19,10 @@
   "block.pixfrimod.citrine_fence": "Citrine Fence",
   "block.pixfrimod.citrine_wall": "Citrine Wall",
   "block.pixfrimod.citrine_fence_gate": "Citrine Fence Gate",
+  "block.pixfrimod.citrine_button": "Citrine Button",
+  "block.pixfrimod.citrine_pressure_plate": "Citrine Pressure Plate",
+  "block.pixfrimod.ebony_door": "Ebony Door",
+  "block.pixfrimod.ebony_trapdoor": "Ebony Trapdoor",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
