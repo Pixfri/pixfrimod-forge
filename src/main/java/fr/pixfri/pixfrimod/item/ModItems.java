@@ -3,7 +3,8 @@ package fr.pixfri.pixfrimod.item;
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.item.custom.CoalCokeItem;
 import fr.pixfri.pixfrimod.item.custom.DowsingRodItem;
-import net.minecraft.world.item.Item;
+import fr.pixfri.pixfrimod.item.custom.LevitationSwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -33,6 +34,26 @@ public class ModItems {
 
     public static final RegistryObject<Item> EBONY = ITEMS.register("ebony",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
+            () -> new LevitationSwordItem(ModTiers.CITRINE, 2, 3f
+                    , new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
+            () -> new PickaxeItem(ModTiers.CITRINE, 2, 1f
+                    , new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_SHOVEL = ITEMS.register("citrine_shovel",
+            () -> new ShovelItem(ModTiers.CITRINE, 0, 1f
+                    , new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_AXE = ITEMS.register("citrine_axe",
+            () -> new AxeItem(ModTiers.CITRINE, 4, 0f
+                    , new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> CITRINE_HOE = ITEMS.register("citrine_hoe",
+            () -> new HoeItem(ModTiers.CITRINE, 0, 0f,
+                        new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
 
     public static void register(IEventBus eventBus) {
