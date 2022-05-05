@@ -2,6 +2,7 @@ package fr.pixfri.pixfrimod;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.item.ModItems;
+import fr.pixfri.pixfrimod.painting.ModPaintings;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,8 @@ public class PixfriMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModPaintings.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
