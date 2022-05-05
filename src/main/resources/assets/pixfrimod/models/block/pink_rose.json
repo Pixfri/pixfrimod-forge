@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pixfrimod:block/pink_rose"
+  }
+}
