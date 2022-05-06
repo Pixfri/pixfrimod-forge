@@ -1,10 +1,7 @@
 package fr.pixfri.pixfrimod.item;
 
 import fr.pixfri.pixfrimod.PixfriMod;
-import fr.pixfri.pixfrimod.item.custom.CoalCokeItem;
-import fr.pixfri.pixfrimod.item.custom.DowsingRodItem;
-import fr.pixfri.pixfrimod.item.custom.LevitationSwordItem;
-import fr.pixfri.pixfrimod.item.custom.ModArmorItem;
+import fr.pixfri.pixfrimod.item.custom.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -75,6 +72,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> MAGIC_DUST = ITEMS.register("magic_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            () -> new DataTabletItem(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

@@ -16,6 +16,7 @@
   "item.pixfrimod.citrine_leggings": "Jambières en Citrine",
   "item.pixfrimod.citrine_boots": "Bottes en Citrine",
   "item.pixfrimod.magic_dust": "Poudre Magique",
+  "item.pixfrimod.data_tablet": "Tablette de données",
 
   "block.pixfrimod.citrine_block": "Bloc de Citrine",
   "block.pixfrimod.raw_citrine_block": "Bloc de Citrine brute",
@@ -35,12 +36,14 @@
   "block.pixfrimod.ebony_trapdoor": "Trappe en Ebony",
   "block.pixfrimod.pink_rose": "Rose rose",
   "block.pixfrimod.potted_pink_rose": "Rose rose en Pot",
+  "block.pixfrimod.winter_window": "Fenêtre d'hiver",
+  "block.pixfrimod.citrine_lamp": "Lampe en Citrine",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
   "item.pixfrimod.dowsing_rod.no_valuables": "Aucun objet trouvé !",
 
-  "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Faites clic droit pour trouver des minerais dans le sol",
+  "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Faites clic droit pour trouver des minerais dans le sol! Si tu utilises cet item avec une tablette de données, le dernier minerai trouvé sera visible desus ainsi que ses coordonées",
   "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Appuyez sur la touche §eMAJUSCULE§r pour plus d'informations",
   "tooltip.pixfrimod.block.speedy_block": "Vive la vitesse!"
 }

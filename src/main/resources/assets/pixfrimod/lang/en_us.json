@@ -16,6 +16,7 @@
   "item.pixfrimod.citrine_leggings": "Citrine Legging",
   "item.pixfrimod.citrine_boots": "Citrine Boots",
   "item.pixfrimod.magic_dust": "Magic Dust",
+  "item.pixfrimod.data_tablet": "Data Tablet",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -35,12 +36,14 @@
   "block.pixfrimod.ebony_trapdoor": "Ebony Trapdoor",
   "block.pixfrimod.pink_rose": "Pink Rose",
   "block.pixfrimod.potted_pink_rose": "Potted Pink Rose",
+  "block.pixfrimod.winter_window": "Winter Window",
+  "block.pixfrimod.citrine_lamp": "Citrine Lamp",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
   "item.pixfrimod.dowsing_rod.no_valuables": "No Valuables Found!",
 
-  "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Right Click to find valuables!",
+  "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Right Click to find valuables! If you use this item with the data tablet, the last ore and it's coordinates will be stocked on it.",
   "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Press §eSHIFT§r for more information!",
   "tooltip.pixfrimod.block.speedy_block": "I am speed!"
 }
