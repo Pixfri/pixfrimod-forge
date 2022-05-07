@@ -3,6 +3,7 @@ package fr.pixfri.pixfrimod;
 import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
+import fr.pixfri.pixfrimod.util.ModItemProperties;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
@@ -19,8 +20,7 @@ import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(PixfriMod.MOD_ID)
-public class PixfriMod
-{
+public class PixfriMod {
     public static final String MOD_ID = "pixfrimod";
 
     // Directly reference a log4j logger.
@@ -52,6 +52,8 @@ public class PixfriMod
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_PINK_ROSE.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WINTER_WINDOW.get(), RenderType.translucent());
+
+        ModItemProperties.addCustomItemProperties();
         LOGGER.info("Client has been setup successfully");
     }
 

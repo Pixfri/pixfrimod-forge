@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ES",
+    "E S",
+    " ES"
+  ],
+  "key": {
+    "E": {
+      "item": "pixfrimod:ebony"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:ebony_bow"
+  }
+}
