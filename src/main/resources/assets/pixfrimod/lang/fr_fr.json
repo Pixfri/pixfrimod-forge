@@ -5,7 +5,7 @@
   "item.pixfrimod.cucumber": "Concombre",
   "item.pixfrimod.coal_coke": "Charbon Compressé",
   "item.pixfrimod.citrine_stick": "Bâton de Citrine",
-  "item.pixfrimod.ebony": "Ebony",
+  "item.pixfrimod.ebony_stick": "Bâton en Ebony",
   "item.pixfrimod.citrine_sword": "Épée en Citrine",
   "item.pixfrimod.citrine_pickaxe": "Pioche en Citrine",
   "item.pixfrimod.citrine_shovel": "Pelle en Citrine",
@@ -41,6 +41,11 @@
   "block.pixfrimod.winter_window": "Fenêtre d'hiver",
   "block.pixfrimod.citrine_lamp": "Lampe en Citrine",
   "block.pixfrimod.cucumber_plant": "Plante de Concombre",
+  "block.pixfrimod.ebony_log": "Tronc d'Ebony",
+  "block.pixfrimod.ebony_planks": "Planches d'Ebony",
+  "block.pixfrimod.ebony_wood": "Bois d'Ebony",
+  "block.pixfrimod.stripped_ebony_log": "Tronc d'Ebony Écorcé",
+  "block.pixfrimod.stripped_ebony_wood": "Bois d'Ebony Écorcé",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 

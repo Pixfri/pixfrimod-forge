@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "EE",
-    "EE",
     "EE"
   ],
   "key": {
     "E": {
-      "item": "pixfrimod:ebony_planks"
+      "item": "pixfrimod:ebony_log"
     }
   },
   "result": {
-    "item": "pixfrimod:ebony_door",
+    "item": "pixfrimod:ebony_wood",
     "count": 4
   }
 }

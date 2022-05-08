@@ -48,7 +48,6 @@ public class PixfriMod {
         LOGGER.info("Setting up client");
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_TRAPDOOR.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(Block.byItem(ModItems.EBONY.get()), RenderType.translucent());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_ROSE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_PINK_ROSE.get(), RenderType.cutout());

@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " E ",
-    "EGE",
-    " E "
+    "CXC",
+    "XGX",
+    "CXC"
   ],
   "key": {
-    "E": {
-      "item": "pixfrimod:ebony"
+    "X": {
+      "item": "pixfrimod:citrine"
     },
     "G": {
       "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "pixfrimod:coal_coke"
     }
   },
   "result": {

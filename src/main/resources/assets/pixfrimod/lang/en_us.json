@@ -5,7 +5,7 @@
   "item.pixfrimod.cucumber": "Cucumber",
   "item.pixfrimod.coal_coke": "Coal Coke",
   "item.pixfrimod.citrine_stick": "Citrine Stick",
-  "item.pixfrimod.ebony": "Ebony",
+  "item.pixfrimod.ebony_stick": "Ebony Stick",
   "item.pixfrimod.citrine_sword": "Citrine Sword",
   "item.pixfrimod.citrine_pickaxe": "Citrine Pickaxe",
   "item.pixfrimod.citrine_shovel": "Citrine Shovel",
@@ -43,6 +43,11 @@
   "block.pixfrimod.winter_window": "Winter Window",
   "block.pixfrimod.citrine_lamp": "Citrine Lamp",
   "block.pixfrimod.cucumber_plant": "Cucumber Plant",
+  "block.pixfrimod.ebony_log": "Ebony Log",
+  "block.pixfrimod.ebony_planks": "Ebony Planks",
+  "block.pixfrimod.ebony_wood": "Ebony Wood",
+  "block.pixfrimod.stripped_ebony_log": "Stripped Ebony Log",
+  "block.pixfrimod.stripped_ebony_wood": "Stripped Ebony Wood",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 

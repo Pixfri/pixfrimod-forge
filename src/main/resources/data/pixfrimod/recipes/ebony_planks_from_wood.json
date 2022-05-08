@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixfrimod:ebony_wood"
+    }
+  ],
+  "result": {
+    "item": "pixfrimod:ebony_planks",
+    "count": 16
+  }
+}
