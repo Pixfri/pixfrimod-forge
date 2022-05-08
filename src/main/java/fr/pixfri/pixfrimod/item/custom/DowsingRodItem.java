@@ -6,6 +6,7 @@ import fr.pixfri.pixfrimod.util.InventoryUtil;
 import fr.pixfri.pixfrimod.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Registry;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
@@ -91,7 +92,8 @@ public class DowsingRodItem extends Item {
                 "(" + blockPos.getX() + ", " + blockPos.getY() + "," + blockPos.getZ() + ")"), player.getUUID());
     }
 
+    @SuppressWarnings("deprecation")
     private boolean isValuableBlock(Block block) {
-        return ModTags.Blocks.DOWSING_ROD_VALUABLES.getValues().contains(block);
+        return Registry.BLOCK.getHolderOrThrow(Registry.BLOCK.getResourceKey(block).get()).is(ModTags.Blocks.DOWSING_ROD_VALUABLES);
     }
 }

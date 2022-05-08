@@ -19,6 +19,8 @@
   "item.pixfrimod.data_tablet": "Data Tablet",
   "item.pixfrimod.ebony_bow": "Ebony Bow",
   "item.pixfrimod.cucumber_seeds": "Cucumber Seeds",
+  "item.pixfrimod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.pixfrimod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -50,5 +52,10 @@
   "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Press §eSHIFT§r for more information!",
   "tooltip.pixfrimod.block.speedy_block": "I am speed!",
 
-  "sounds.pixfrimod.dowsing_rod_found_ore": "Dowsing Rod Found Ore Sound"
+  "sounds.pixfrimod.dowsing_rod_found_ore": "Dowsing Rod Found Ore Sound",
+  "sounds.pixfrimod.citrine_lamp_break": "Broken Citrine Lamp",
+  "sounds.pixfrimod.citrine_lamp_step": "Citrine Lamp Step",
+  "sounds.pixfrimod.citrine_lamp_place": "Placed Citrine Lamp",
+  "sounds.pixfrimod.citrine_lamp_hit": "Hurted Citrine Lamp",
+  "sounds.pixfrimod.citrine_lamp_fall": "Fall on a Citrine Lamp"
 }

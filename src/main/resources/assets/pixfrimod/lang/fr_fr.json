@@ -50,5 +50,10 @@
   "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Appuyez sur la touche §eMAJUSCULE§r pour plus d'informations",
   "tooltip.pixfrimod.block.speedy_block": "Vive la vitesse!",
 
-  "sounds.pixfrimod.dowsing_rod_found_ore": "Son de Minerai trouvé par la baguette de détection de minerais"
+  "sounds.pixfrimod.dowsing_rod_found_ore": "Son de Minerai trouvé par la baguette de détection de minerais",
+  "sounds.pixfrimod.citrine_lamp_break": "Lampe de Citrine cassée",
+  "sounds.pixfrimod.citrine_lamp_step": "Pas sur une lampe en Citrine",
+  "sounds.pixfrimod.citrine_lamp_place": "Lampe en Citrine placée",
+  "sounds.pixfrimod.citrine_lamp_hit": "Lampe en Citrine Frappée",
+  "sounds.pixfrimod.citrine_lamp_fall": "Chute sur une lampe en Citrine"
 }
