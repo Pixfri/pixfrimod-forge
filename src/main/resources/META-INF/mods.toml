@@ -27,9 +27,9 @@ displayName="Pixfri Mod" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="icon.png" #optional
+logoFile="banner2.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for Kaupenjoe who made tutorials to make a minecraft mod" #optional
+credits="Thanks for Kaupenjoe who made tutorials to make a minecraft mod and\n nanoattack and Starlotte for the textures" #optional
 # A text field displayed in the mod UI
 authors="Pixfri" #optional
 # The description text for the mod (multi line!) (#mandatory)

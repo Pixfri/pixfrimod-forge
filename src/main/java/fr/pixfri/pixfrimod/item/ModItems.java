@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod.item;
 
 import fr.pixfri.pixfrimod.PixfriMod;
+import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.item.custom.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -79,6 +80,9 @@ public class ModItems {
     public static final RegistryObject<Item> EBONY_BOW = ITEMS.register("ebony_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).durability(500)));
 
+    public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CUCUMBER_PLANT.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

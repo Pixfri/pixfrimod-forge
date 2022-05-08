@@ -2,6 +2,7 @@ package fr.pixfri.pixfrimod.block;
 
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.block.custom.CitrineLampBlock;
+import fr.pixfri.pixfrimod.block.custom.CucumberPlantBlock;
 import fr.pixfri.pixfrimod.block.custom.SpeedyBlock;
 import fr.pixfri.pixfrimod.item.ModCreativeModeTab;
 import fr.pixfri.pixfrimod.item.ModItems;
@@ -102,10 +103,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> WINTER_WINDOW = registerBlock("winter_window",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()), ModCreativeModeTab.PIXFRIMOD_TAB);
 
+
     public static final RegistryObject<Block> CITRINE_LAMP = registerBlock("citrine_lamp",
             () -> new CitrineLampBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(2f).requiresCorrectToolForDrops().lightLevel(
-                            (state) -> state.getValue(CitrineLampBlock.CLICKED) ? 15 : 0)), ModCreativeModeTab.PIXFRIMOD_TAB);
+                            (state) -> state.getValue(CitrineLampBlock.CLICKED) ? 15 : 0), ModCreativeModeTab.PIXFRIMOD_TAB));
+
+    public static final RegistryObject<Block> CUCUMBER_PLANT = registerBlockWithoutBlockItem("cucumber_plant",
+            () -> new CucumberPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);

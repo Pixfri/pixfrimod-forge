@@ -18,6 +18,7 @@
   "item.pixfrimod.magic_dust": "Magic Dust",
   "item.pixfrimod.data_tablet": "Data Tablet",
   "item.pixfrimod.ebony_bow": "Ebony Bow",
+  "item.pixfrimod.cucumber_seeds": "Cucumber Seeds",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -39,6 +40,7 @@
   "block.pixfrimod.potted_pink_rose": "Potted Pink Rose",
   "block.pixfrimod.winter_window": "Winter Window",
   "block.pixfrimod.citrine_lamp": "Citrine Lamp",
+  "block.pixfrimod.cucumber_plant": "Cucumber Plant",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
