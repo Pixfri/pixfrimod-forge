@@ -48,5 +48,7 @@
 
   "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Faites clic droit pour trouver des minerais dans le sol! Si tu utilises cet item avec une tablette de données, le dernier minerai trouvé sera visible desus ainsi que ses coordonées",
   "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Appuyez sur la touche §eMAJUSCULE§r pour plus d'informations",
-  "tooltip.pixfrimod.block.speedy_block": "Vive la vitesse!"
+  "tooltip.pixfrimod.block.speedy_block": "Vive la vitesse!",
+
+  "sounds.pixfrimod.dowsing_rod_found_ore": "Son de Minerai trouvé par la baguette de détection de minerais"
 }

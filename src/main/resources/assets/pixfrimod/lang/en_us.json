@@ -48,5 +48,7 @@
 
   "tooltip.pixfrimod.item.dowsing_rod.tooltip.shift": "Right Click to find valuables! If you use this item with the data tablet, the last ore and it's coordinates will be stocked on it.",
   "tooltip.pixfrimod.item.dowsing_rod.tooltip": "Press §eSHIFT§r for more information!",
-  "tooltip.pixfrimod.block.speedy_block": "I am speed!"
+  "tooltip.pixfrimod.block.speedy_block": "I am speed!",
+
+  "sounds.pixfrimod.dowsing_rod_found_ore": "Dowsing Rod Found Ore Sound"
 }

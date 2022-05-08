@@ -3,6 +3,7 @@ package fr.pixfri.pixfrimod;
 import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
+import fr.pixfri.pixfrimod.sound.ModSounds;
 import fr.pixfri.pixfrimod.util.ModItemProperties;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -34,6 +35,7 @@ public class PixfriMod {
         ModBlocks.register(eventBus);
 
         ModPaintings.register(eventBus);
+        ModSounds.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
