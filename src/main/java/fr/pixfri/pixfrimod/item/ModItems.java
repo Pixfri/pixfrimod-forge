@@ -3,6 +3,7 @@ package fr.pixfri.pixfrimod.item;
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.item.custom.*;
+import fr.pixfri.pixfrimod.sound.ModSounds;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -83,6 +84,10 @@ public class ModItems {
     public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
             () -> new ItemNameBlockItem(ModBlocks.CUCUMBER_PLANT.get(),
                     new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new RecordItem(4, ModSounds.BAR_BRAWL,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
