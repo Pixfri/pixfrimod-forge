@@ -1,3 +1,4 @@
+// PixfriMod in 1.18.1
 package fr.pixfri.pixfrimod;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
