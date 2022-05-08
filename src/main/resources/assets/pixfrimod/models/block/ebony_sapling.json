@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pixfrimod:block/ebony_sapling"
+  }
+}
