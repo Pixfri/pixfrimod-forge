@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    }
+  ],
+  "addition": "pixfrimod:coal_coke",
+  "type": "pixfrimod:coal_coke_from_creeper"
+}
