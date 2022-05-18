@@ -1,6 +1,12 @@
 # pixfrimod
 PixfriMod for Forge
 
+## Install Gradle
+
+If Gradle is already installed on your computer you can skip this part
+
+When you have downloaded the Gradle zip file in the dependencies, unzip it in the folder you want and now type 
+
 ## Build the mod
 
 This is an 1.18.2 Minecraft mod.
@@ -12,4 +18,5 @@ Now you have the mod jar file and you can add it into your mods to play with it 
 
 ## Dependencies
 
+[Gradle](https://downloads.gradle-dn.com/distributions/gradle-7.4.2-all.zip)
 [Forge 1.18.2-40.0.5 ](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.0.5/forge-1.18.2-40.0.5-installer.jar) or a newer version
