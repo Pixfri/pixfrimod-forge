@@ -20,5 +20,5 @@ Now you have the mod jar file and you can add it into your mods to play with it 
 
 ## Dependencies
 
-[Gradle](https://downloads.gradle-dn.com/distributions/gradle-7.4.2-all.zip)
-[Forge 1.18.2-40.0.5 ](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.0.5/forge-1.18.2-40.0.5-installer.jar) or a newer version
+[Gradle](https://downloads.gradle-dn.com/distributions/gradle-7.4.2-all.zip)  
+[Forge 1.18.2-40.0.5](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.0.5/forge-1.18.2-40.0.5-installer.jar) or a newer version

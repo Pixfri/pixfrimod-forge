@@ -8,12 +8,12 @@ import fr.pixfri.pixfrimod.block.custom.SpeedyBlock;
 import fr.pixfri.pixfrimod.item.ModCreativeModeTab;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.sound.ModSounds;
-import fr.pixfri.pixfrimod.util.ModTags;
 import fr.pixfri.pixfrimod.world.feature.tree.EbonyTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.BlockGetter;
@@ -44,20 +44,20 @@ public class ModBlocks {
                     .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(9f).requiresCorrectToolForDrops(), UniformInt.of(8, 10)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
