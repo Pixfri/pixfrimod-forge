@@ -62,5 +62,7 @@
   "sounds.pixfrimod.citrine_lamp_step": "Pas sur une lampe en Citrine",
   "sounds.pixfrimod.citrine_lamp_place": "Lampe en Citrine placée",
   "sounds.pixfrimod.citrine_lamp_hit": "Lampe en Citrine Frappée",
-  "sounds.pixfrimod.citrine_lamp_fall": "Chute sur une lampe en Citrine"
+  "sounds.pixfrimod.citrine_lamp_fall": "Chute sur une lampe en Citrine",
+
+  "effect.pixfrimod.freeze": "Gelé"
 }

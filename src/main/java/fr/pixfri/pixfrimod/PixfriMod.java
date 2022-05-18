@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
+import fr.pixfri.pixfrimod.effect.ModEffects;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
 import fr.pixfri.pixfrimod.sound.ModSounds;
@@ -35,6 +36,8 @@ public class PixfriMod {
 
         ModPaintings.register(eventBus);
         ModSounds.register(eventBus);
+
+        ModEffects.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);

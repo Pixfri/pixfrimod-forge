@@ -64,5 +64,7 @@
   "sounds.pixfrimod.citrine_lamp_step": "Citrine Lamp Step",
   "sounds.pixfrimod.citrine_lamp_place": "Placed Citrine Lamp",
   "sounds.pixfrimod.citrine_lamp_hit": "Hurted Citrine Lamp",
-  "sounds.pixfrimod.citrine_lamp_fall": "Fall on a Citrine Lamp"
+  "sounds.pixfrimod.citrine_lamp_fall": "Fall on a Citrine Lamp",
+
+  "effect.pixfrimod.freeze": "Freeze"
 }
