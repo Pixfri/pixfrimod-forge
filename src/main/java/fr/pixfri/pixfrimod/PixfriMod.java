@@ -65,6 +65,8 @@ public class PixfriMod {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_SAPLING.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GEM_CUTTING_STATION.get(), RenderType.translucent());
+
         ModItemProperties.addCustomItemProperties();
         LOGGER.info("Client has been setup successfully");
     }
