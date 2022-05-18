@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "CCC",
+    "ODO"
+  ],
+  "key": {
+    "C": {
+      "item": "pixfrimod:citrine_block"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "O": {
+      "item": "minecraft:oak_planks"
+    },
+    "D": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:citrine_staff"
+  }
+}
