@@ -34,7 +34,7 @@ credits="Thanks for Kaupenjoe who made tutorials to make a minecraft mod and\n n
 authors="Pixfri" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Pixfri Mod 1.18.1 version
+Pixfri Mod 1.18.2 version
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.pixfrimod]] #optional
