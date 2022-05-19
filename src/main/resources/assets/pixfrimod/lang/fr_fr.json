@@ -20,6 +20,7 @@
   "item.pixfrimod.ebony_bow": "Arc en Ebony",
   "item.pixfrimod.cucumber_seeds": "Graines de Concombre",
   "item.pixfrimod.citrine_staff": "Baguette de Citrine",
+  "item.pixfrimod.gem_cutter_tool": "Outil de découppage de gemmes",
 
   "item.minecraft.potion.effect.freeze_potion": "Potion de gel",
   "item.minecraft.splash_potion.effect.freeze_potion": "Potion de gel jetable",
@@ -70,5 +71,7 @@
   "sounds.pixfrimod.citrine_lamp_hit": "Lampe en Citrine Frappée",
   "sounds.pixfrimod.citrine_lamp_fall": "Chute sur une lampe en Citrine",
 
-  "effect.pixfrimod.freeze": "Gelé"
+  "effect.pixfrimod.freeze": "Gelé",
+
+  "gui.pixfrimod.title.gem_cutting_station_title": "Station de coupe de gemmes"
 }

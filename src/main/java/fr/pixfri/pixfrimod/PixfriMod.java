@@ -1,13 +1,17 @@
 package fr.pixfri.pixfrimod;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
+import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
 import fr.pixfri.pixfrimod.effect.ModEffects;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
 import fr.pixfri.pixfrimod.potion.ModPotions;
+import fr.pixfri.pixfrimod.screen.GemCuttingStationScreen;
+import fr.pixfri.pixfrimod.screen.ModMenuTypes;
 import fr.pixfri.pixfrimod.sound.ModSounds;
 import fr.pixfri.pixfrimod.util.BetterBrewingRecipe;
 import fr.pixfri.pixfrimod.util.ModItemProperties;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.alchemy.Potions;
@@ -44,6 +48,9 @@ public class PixfriMod {
         ModEffects.register(eventBus);
         ModPotions.register(eventBus);
 
+        ModBlockEntities.register(eventBus);
+        ModMenuTypes.register(eventBus);
+
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
 
@@ -68,6 +75,8 @@ public class PixfriMod {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GEM_CUTTING_STATION.get(), RenderType.translucent());
 
         ModItemProperties.addCustomItemProperties();
+
+        MenuScreens.register(ModMenuTypes.GEM_CUTTING_STATION_MENU.get(), GemCuttingStationScreen::new);
         LOGGER.info("Client has been setup successfully");
     }
 

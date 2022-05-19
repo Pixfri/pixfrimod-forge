@@ -22,6 +22,7 @@
   "item.pixfrimod.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.pixfrimod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
   "item.pixfrimod.citrine_staff": "Citrine Staff",
+  "item.pixfrimod.gem_cutter_tool": "Gem Cutter Tool",
 
   "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
   "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
@@ -72,5 +73,7 @@
   "sounds.pixfrimod.citrine_lamp_hit": "Hurted Citrine Lamp",
   "sounds.pixfrimod.citrine_lamp_fall": "Fall on a Citrine Lamp",
 
-  "effect.pixfrimod.freeze": "Freeze"
+  "effect.pixfrimod.freeze": "Freeze",
+
+  "gui.pixfrimod.title.gem_cutting_station_title": "Gem Cutting Station"
 }
