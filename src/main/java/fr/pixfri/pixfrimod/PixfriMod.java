@@ -6,6 +6,7 @@ import fr.pixfri.pixfrimod.effect.ModEffects;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
 import fr.pixfri.pixfrimod.potion.ModPotions;
+import fr.pixfri.pixfrimod.recipe.ModRecipes;
 import fr.pixfri.pixfrimod.screen.GemCuttingStationScreen;
 import fr.pixfri.pixfrimod.screen.ModMenuTypes;
 import fr.pixfri.pixfrimod.sound.ModSounds;
@@ -50,6 +51,8 @@ public class PixfriMod {
 
         ModBlockEntities.register(eventBus);
         ModMenuTypes.register(eventBus);
+
+        ModRecipes.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
