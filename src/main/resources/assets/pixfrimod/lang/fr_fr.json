@@ -25,6 +25,7 @@
   "item.minecraft.potion.effect.freeze_potion": "Potion de gel",
   "item.minecraft.splash_potion.effect.freeze_potion": "Potion de gel jetable",
   "item.minecraft.lingering_potion.effect.freeze_potion": "Potion de gel persistante",
+  "item.minecraft.tipped_arrow.effect.freeze_potion": "Flèche de Gel",
 
   "block.pixfrimod.citrine_block": "Bloc de Citrine",
   "block.pixfrimod.raw_citrine_block": "Bloc de Citrine brute",
@@ -73,5 +74,6 @@
 
   "effect.pixfrimod.freeze": "Gelé",
 
-  "gui.pixfrimod.title.gem_cutting_station_title": "Station de coupe de gemmes"
+  "gui.pixfrimod.title.gem_cutting_station_title": "Station de coupe de gemmes",
+  "gui.pixfrimod.title.jei_gem_cutting_station_title": "Station de coupe de gemmes"
 }

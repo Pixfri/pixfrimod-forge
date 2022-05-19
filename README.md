@@ -1,4 +1,4 @@
-# pixfrimod
+# PixfriMod
 PixfriMod for Forge
 
 ## Install Gradle

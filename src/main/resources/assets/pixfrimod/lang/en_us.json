@@ -27,6 +27,7 @@
   "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
   "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
   "item.minecraft.lingering_potion.effect.freeze_potion": "Lingering Potion of Freeze",
+  "item.minecraft.tipped_arrow.effect.freeze_potion": "Freeze Arrow",
 
   "block.pixfrimod.citrine_block": "Block of Citrine",
   "block.pixfrimod.raw_citrine_block": "Block of raw Citrine",
@@ -75,5 +76,6 @@
 
   "effect.pixfrimod.freeze": "Freeze",
 
-  "gui.pixfrimod.title.gem_cutting_station_title": "Gem Cutting Station"
+  "gui.pixfrimod.title.gem_cutting_station_title": "Gem Cutting Station",
+  "gui.pixfrimod.title.jei_gem_cutting_station_title": "Gem Cutting Station"
 }
