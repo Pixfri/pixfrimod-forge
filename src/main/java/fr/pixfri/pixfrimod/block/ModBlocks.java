@@ -2,6 +2,7 @@ package fr.pixfri.pixfrimod.block;
 
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.block.custom.*;
+import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
 import fr.pixfri.pixfrimod.item.ModCreativeModeTab;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.sound.ModSounds;
@@ -174,10 +175,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
             () -> new SaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
-
     public static final RegistryObject<Block> GEM_CUTTING_STATION = registerBlock("gem_cutting_station",
             () -> new GemCuttingStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()),
             ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> EBONY_WALL_SIGN = registerBlockWithoutBlockItem("ebony_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.EBONY));
+
+    public static final RegistryObject<Block> EBONY_SIGN = registerBlockWithoutBlockItem("ebony_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.EBONY));
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);

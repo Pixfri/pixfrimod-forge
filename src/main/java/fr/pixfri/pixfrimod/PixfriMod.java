@@ -2,6 +2,7 @@ package fr.pixfri.pixfrimod;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
+import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
 import fr.pixfri.pixfrimod.effect.ModEffects;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
@@ -15,9 +16,13 @@ import fr.pixfri.pixfrimod.util.ModItemProperties;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.Sheets;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -80,6 +85,10 @@ public class PixfriMod {
         ModItemProperties.addCustomItemProperties();
 
         MenuScreens.register(ModMenuTypes.GEM_CUTTING_STATION_MENU.get(), GemCuttingStationScreen::new);
+
+        WoodType.register(ModWoodTypes.EBONY);
+        BlockEntityRenderers.register(ModBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
+
         LOGGER.info("Client has been setup successfully");
     }
 
@@ -90,6 +99,8 @@ public class PixfriMod {
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD,
                     ModItems.CITRINE.get(), ModPotions.FREEZE_POTION.get()));
+
+            Sheets.addWoodType(ModWoodTypes.EBONY);
         });
         LOGGER.info("Pixfri Mod has been setup successfully");
     }
