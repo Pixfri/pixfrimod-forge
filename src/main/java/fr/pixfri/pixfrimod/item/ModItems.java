@@ -2,6 +2,7 @@ package fr.pixfri.pixfrimod.item;
 
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.block.ModBlocks;
+import fr.pixfri.pixfrimod.fluid.ModFluids;
 import fr.pixfri.pixfrimod.item.custom.*;
 import fr.pixfri.pixfrimod.sound.ModSounds;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -98,6 +99,10 @@ public class ModItems {
     public static final RegistryObject<Item> EBONY_SIGN = ITEMS.register("ebony_sign",
             () -> new SignItem(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).stacksTo(16),
                     ModBlocks.EBONY_SIGN.get(), ModBlocks.EBONY_WALL_SIGN.get()));
+
+    public static final RegistryObject<Item> HONEY_BUCKET = ITEMS.register("honey_bucket",
+            () -> new BucketItem(ModFluids.HONEY_FLUID,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

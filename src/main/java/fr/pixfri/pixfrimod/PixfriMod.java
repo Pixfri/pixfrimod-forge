@@ -4,6 +4,7 @@ import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
 import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
 import fr.pixfri.pixfrimod.effect.ModEffects;
+import fr.pixfri.pixfrimod.fluid.ModFluids;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
 import fr.pixfri.pixfrimod.particle.ModParticles;
@@ -61,6 +62,8 @@ public class PixfriMod {
         ModRecipes.register(eventBus);
         ModParticles.register(eventBus);
 
+        ModFluids.register(eventBus);
+
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
 
@@ -83,6 +86,10 @@ public class PixfriMod {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_SAPLING.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GEM_CUTTING_STATION.get(), RenderType.translucent());
+
+        ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_BLOCK.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLUID.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLOWING.get(), RenderType.translucent());
 
         ModItemProperties.addCustomItemProperties();
 
