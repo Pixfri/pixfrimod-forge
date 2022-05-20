@@ -4,6 +4,7 @@ import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
 import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
 import fr.pixfri.pixfrimod.effect.ModEffects;
+import fr.pixfri.pixfrimod.enchantment.ModEnchantments;
 import fr.pixfri.pixfrimod.fluid.ModFluids;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
@@ -63,6 +64,7 @@ public class PixfriMod {
         ModParticles.register(eventBus);
 
         ModFluids.register(eventBus);
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
