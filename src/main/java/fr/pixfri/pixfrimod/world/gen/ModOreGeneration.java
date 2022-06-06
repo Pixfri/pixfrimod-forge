@@ -14,6 +14,5 @@ public class ModOreGeneration {
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
 
         base.add(ModPlacedFeatures.CITRINE_ORE_PLACED);
-        base.add(ModPlacedFeatures.NETHER_CITRINE_ORE_PLACED);
     }
 }

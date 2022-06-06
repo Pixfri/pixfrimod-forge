@@ -47,10 +47,4 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> CITRINE_ORE = FeatureUtils.register("citrine_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_CITRINE_ORES, 9));
 
-
-    public static final List<OreConfiguration.TargetBlockState> NETHER_CITRINE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHERRACK_CITRINE_ORE.get().defaultBlockState()));
-
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_CITRINE_ORE = FeatureUtils.register("nether_citrine_ore",
-            Feature.ORE, new OreConfiguration(NETHER_CITRINE_ORES, 10));
 }
