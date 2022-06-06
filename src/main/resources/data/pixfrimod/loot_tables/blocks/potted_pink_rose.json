@@ -22,7 +22,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pixfrimod:pink_rose"
+          "name": "minecraft:air"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
         }
       ]
     }

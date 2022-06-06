@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "pixfrimod:block/ebony_log_top",
-    "side": "pixfrimod:block/ebony_log"
+    "side": "pixfrimod:block/ebony_log",
+    "end": "pixfrimod:block/ebony_log_top"
   }
 }

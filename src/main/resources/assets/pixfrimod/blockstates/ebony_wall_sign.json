@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/ebony_sign" }
+    "": {
+      "model": "pixfrimod:block/ebony_sign"
+    }
   }
 }

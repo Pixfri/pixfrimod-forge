@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/pink_rose" }
+    "": {
+      "model": "pixfrimod:block/pink_rose"
+    }
   }
 }

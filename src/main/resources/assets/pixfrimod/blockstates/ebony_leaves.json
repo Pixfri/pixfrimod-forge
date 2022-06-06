@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/ebony_leaves" }
+    "": {
+      "model": "pixfrimod:block/ebony_leaves"
+    }
   }
 }

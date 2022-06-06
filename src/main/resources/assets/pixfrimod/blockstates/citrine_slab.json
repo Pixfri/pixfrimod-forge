@@ -1,13 +1,13 @@
 {
   "variants": {
+    "type=top": {
+      "model": "pixfrimod:block/citrine_slab_top"
+    },
     "type=bottom": {
       "model": "pixfrimod:block/citrine_slab"
     },
     "type=double": {
       "model": "pixfrimod:block/citrine_block"
-    },
-    "type=top": {
-      "model": "pixfrimod:block/citrine_slab_top"
     }
   }
 }

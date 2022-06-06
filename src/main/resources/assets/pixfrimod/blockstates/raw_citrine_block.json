@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/raw_citrine_block" }
+    "": {
+      "model": "pixfrimod:block/raw_citrine_block"
+    }
   }
 }

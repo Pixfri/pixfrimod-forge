@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pixfrimod:ebony_door"
+    ]
+  },
+  "criteria": {
+    "has_ebony_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:ebony_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixfrimod:ebony_door"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ebony_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "pixfrimod:gem_cutting",
+  "ingredients": [
+    {
+      "item": "pixfrimod:citrine_ore"
+    }
+  ],
+  "output": {
+    "item": "pixfrimod:raw_citrine"
+  }
+}

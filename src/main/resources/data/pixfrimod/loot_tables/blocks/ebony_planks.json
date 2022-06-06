@@ -9,6 +9,11 @@
           "type": "minecraft:item",
           "name": "pixfrimod:ebony_planks"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

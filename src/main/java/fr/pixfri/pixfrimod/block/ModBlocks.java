@@ -185,6 +185,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> EBONY_SIGN = registerBlockWithoutBlockItem("ebony_sign",
             () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.EBONY));
 
+    public static final RegistryObject<Block> CITRINE_STATUE = registerBlock("citrine_statue",
+            () -> new CitrineStatueBlock(BlockBehaviour.Properties.copy(CITRINE_BLOCK.get())), ModCreativeModeTab.PIXFRIMOD_TAB);
+
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
     }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/speedy_block" }
+    "": {
+      "model": "pixfrimod:block/speedy_block"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/winter_window" }
+    "": {
+      "model": "pixfrimod:block/winter_window"
+    }
   }
 }

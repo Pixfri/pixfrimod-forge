@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pixfrimod:block/citrine_statue" },
+    "facing=east": { "model": "pixfrimod:block/citrine_statue", "y": 90 },
+    "facing=south": { "model": "pixfrimod:block/citrine_statue", "y": 180 },
+    "facing=west": { "model": "pixfrimod:block/citrine_statue", "y": 270 }
+  }
+}

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/citrine_ore" }
+    "": {
+      "model": "pixfrimod:block/citrine_ore"
+    }
   }
 }

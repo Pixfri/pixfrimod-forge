@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "CCC",
+    "CCC",
+    "CCC"
   ],
   "key": {
-    "#": {
-      "tag": "forge:gems/citrine"
+    "C": {
+      "item": "pixfrimod:citrine"
     }
   },
   "result": {

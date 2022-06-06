@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_rh",
   "textures": {
-    "top": "pixfrimod:block/ebony_door_top",
-    "bottom": "pixfrimod:block/ebony_door_bottom"
+    "bottom": "pixfrimod:block/ebony_door_bottom",
+    "top": "pixfrimod:block/ebony_door_top"
   }
 }

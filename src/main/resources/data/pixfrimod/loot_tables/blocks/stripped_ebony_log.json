@@ -9,6 +9,11 @@
           "type": "minecraft:item",
           "name": "pixfrimod:stripped_ebony_log"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pixfrimod:raw_citrine"
+    ]
+  },
+  "criteria": {
+    "has_citrine_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:citrine_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixfrimod:raw_citrine"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_citrine_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

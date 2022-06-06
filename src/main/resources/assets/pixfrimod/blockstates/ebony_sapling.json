@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pixfrimod:block/ebony_sapling" }
+    "": {
+      "model": "pixfrimod:block/ebony_sapling"
+    }
   }
 }
