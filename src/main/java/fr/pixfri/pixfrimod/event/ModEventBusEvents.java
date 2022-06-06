@@ -1,6 +1,8 @@
 package fr.pixfri.pixfrimod.event;
 
 import fr.pixfri.pixfrimod.PixfriMod;
+import fr.pixfri.pixfrimod.entity.ModEntityTypes;
+import fr.pixfri.pixfrimod.entity.custom.RaccoonEntity;
 import fr.pixfri.pixfrimod.event.loot.CoalCokeFromCreeperAdditionModifier;
 import fr.pixfri.pixfrimod.event.loot.CucumberSeedsFromGrassAdditionModifier;
 import fr.pixfri.pixfrimod.event.loot.DowsingRodInIglooAdditionModifier;
@@ -14,6 +16,7 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -44,5 +47,10 @@ public class ModEventBusEvents {
     public static void registerParticleFactories(final ParticleFactoryRegisterEvent event) {
         Minecraft.getInstance().particleEngine.register(ModParticles.CITRINE_PARTICLES.get(),
                 CitrineParticles.Provider::new);
+    }
+
+    @SubscribeEvent
+    public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
+        event.put(ModEntityTypes.RACCOON.get(), RaccoonEntity.setAttributes());
     }
 }

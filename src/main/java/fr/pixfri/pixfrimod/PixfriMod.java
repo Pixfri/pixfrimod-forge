@@ -5,6 +5,8 @@ import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
 import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
 import fr.pixfri.pixfrimod.effect.ModEffects;
 import fr.pixfri.pixfrimod.enchantment.ModEnchantments;
+import fr.pixfri.pixfrimod.entity.ModEntityTypes;
+import fr.pixfri.pixfrimod.entity.client.RaccoonRenderer;
 import fr.pixfri.pixfrimod.fluid.ModFluids;
 import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
@@ -22,6 +24,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -35,6 +38,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import software.bernie.geckolib3.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(PixfriMod.MOD_ID)
@@ -66,8 +70,12 @@ public class PixfriMod {
         ModFluids.register(eventBus);
         ModEnchantments.register(eventBus);
 
+        ModEntityTypes.register(eventBus);
+
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
+
+        GeckoLib.initialize();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -99,6 +107,8 @@ public class PixfriMod {
 
         WoodType.register(ModWoodTypes.EBONY);
         BlockEntityRenderers.register(ModBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
+
+        EntityRenderers.register(ModEntityTypes.RACCOON.get(), RaccoonRenderer::new);
 
         LOGGER.info("Client has been setup successfully");
     }
