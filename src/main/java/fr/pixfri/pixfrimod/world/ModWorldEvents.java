@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod.world;
 
 import fr.pixfri.pixfrimod.PixfriMod;
+import fr.pixfri.pixfrimod.world.gen.ModEntityGeneration;
 import fr.pixfri.pixfrimod.world.gen.ModFlowerGeneration;
 import fr.pixfri.pixfrimod.world.gen.ModOreGeneration;
 import fr.pixfri.pixfrimod.world.gen.ModTreeGeneration;
@@ -15,5 +16,7 @@ public class ModWorldEvents {
 
         ModTreeGeneration.generateTrees(event);
         ModFlowerGeneration.generatedFlowers(event);
+
+        ModEntityGeneration.onEntitySpawn(event);
     }
 }
