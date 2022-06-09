@@ -84,5 +84,7 @@
   "enchantment.pixfrimod.lightning_striker": "Lightning Striker",
 
   "gui.pixfrimod.title.gem_cutting_station_title": "Gem Cutting Station",
-  "gui.pixfrimod.title.jei_gem_cutting_station_title": "Gem Cutting Station"
+  "gui.pixfrimod.title.jei_gem_cutting_station_title": "Gem Cutting Station",
+
+  "entity.minecraft.villager.pixfrimod.gem_cutter": "Gem Cutter"
 }

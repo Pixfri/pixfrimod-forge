@@ -82,5 +82,7 @@
   "enchantment.pixfrimod.lightning_striker": "Foudres Déchainées",
 
   "gui.pixfrimod.title.gem_cutting_station_title": "Station de coupe de gemmes",
-  "gui.pixfrimod.title.jei_gem_cutting_station_title": "Station de coupe de gemmes"
+  "gui.pixfrimod.title.jei_gem_cutting_station_title": "Station de coupe de gemmes",
+
+  "entity.minecraft.villager.pixfrimod.gem_cutter": "Coupeur de gemmes"
 }

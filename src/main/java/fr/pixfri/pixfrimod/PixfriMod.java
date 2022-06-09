@@ -18,6 +18,7 @@ import fr.pixfri.pixfrimod.screen.ModMenuTypes;
 import fr.pixfri.pixfrimod.sound.ModSounds;
 import fr.pixfri.pixfrimod.util.BetterBrewingRecipe;
 import fr.pixfri.pixfrimod.util.ModItemProperties;
+import fr.pixfri.pixfrimod.villager.ModVillagers;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -74,6 +75,7 @@ public class PixfriMod {
         ModEnchantments.register(eventBus);
 
         ModEntityTypes.register(eventBus);
+        ModVillagers.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
@@ -130,6 +132,8 @@ public class PixfriMod {
                     SpawnPlacements.Type.ON_GROUND,
                     Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
                     Animal::checkAnimalSpawnRules);
+
+            ModVillagers.registerPOIs();
         });
         LOGGER.info("Pixfri Mod has been setup successfully");
     }

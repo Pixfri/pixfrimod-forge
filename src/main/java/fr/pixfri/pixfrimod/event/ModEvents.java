@@ -2,6 +2,7 @@ package fr.pixfri.pixfrimod.event;
 
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.item.ModItems;
+import fr.pixfri.pixfrimod.villager.ModVillagers;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -36,6 +37,16 @@ public class ModEvents {
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 12),
+                    stack,4,12,0.09F));
+        }
+
+        if(event.getType() == ModVillagers.GEM_CUTTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.CITRINE.get(), 2);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 5),
                     stack,4,12,0.09F));
         }
 
