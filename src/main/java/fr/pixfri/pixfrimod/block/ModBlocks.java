@@ -173,7 +173,8 @@ public class ModBlocks {
             }, ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
-            () -> new SaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.PIXFRIMOD_TAB);
+            () -> new ModSaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING),
+                    () -> Blocks.GRASS), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> GEM_CUTTING_STATION = registerBlock("gem_cutting_station",
             () -> new GemCuttingStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()),
