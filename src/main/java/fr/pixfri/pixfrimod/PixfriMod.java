@@ -3,6 +3,8 @@ package fr.pixfri.pixfrimod;
 import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
 import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
+import fr.pixfri.pixfrimod.config.PixfriModClientConfigs;
+import fr.pixfri.pixfrimod.config.PixfriModCommonConfigs;
 import fr.pixfri.pixfrimod.effect.ModEffects;
 import fr.pixfri.pixfrimod.enchantment.ModEnchantments;
 import fr.pixfri.pixfrimod.entity.ModEntityTypes;
@@ -36,7 +38,9 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -81,6 +85,9 @@ public class PixfriMod {
         eventBus.addListener(this::ClientSetup);
 
         GeckoLib.initialize();
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, PixfriModClientConfigs.SPEC, "pixfrimod-client.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, PixfriModCommonConfigs.SPEC, "pixfrimod-common.toml");
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

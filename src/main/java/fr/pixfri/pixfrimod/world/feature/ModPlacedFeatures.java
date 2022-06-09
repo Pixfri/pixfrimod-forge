@@ -1,5 +1,6 @@
 package fr.pixfri.pixfrimod.world.feature;
 
+import fr.pixfri.pixfrimod.config.PixfriModCommonConfigs;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.VegetationPlacements;
@@ -16,14 +17,17 @@ public class ModPlacedFeatures {
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
     public static final Holder<PlacedFeature> CITRINE_ORE_PLACED = PlacementUtils.register("citrine_ore_placed",
-            ModConfiguredFeatures.CITRINE_ORE, ModOrePlacement.commonOrePlacement(7, // veinsPerChunk
+            ModConfiguredFeatures.CITRINE_ORE, ModOrePlacement.commonOrePlacement(
+                    PixfriModCommonConfigs.CITRINE_ORE_VEINS_PER_CHUNK.get(), // veinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 
     public static final Holder<PlacedFeature> END_CITRINE_ORE_PLACED = PlacementUtils.register("end_citrine_ore_placed",
-            ModConfiguredFeatures.END_CITRINE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+            ModConfiguredFeatures.END_CITRINE_ORE, ModOrePlacement.commonOrePlacement(
+                    PixfriModCommonConfigs.END_CITRINE_ORE_VEINS_PER_CHUNK.get(), // VeinsPerChunk
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 
     public static final Holder<PlacedFeature> NETHER_CITRINE_ORE_PLACED = PlacementUtils.register("nether_citrine_ore_placed",
-            ModConfiguredFeatures.NETHER_CITRINE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+            ModConfiguredFeatures.NETHER_CITRINE_ORE, ModOrePlacement.commonOrePlacement(
+                    PixfriModCommonConfigs.NETHER_CITRINE_ORE_VEINS_PER_CHUNK.get(), // VeinsPerChunk
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 }

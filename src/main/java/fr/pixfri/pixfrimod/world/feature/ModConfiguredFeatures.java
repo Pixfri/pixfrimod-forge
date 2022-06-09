@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod.world.feature;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
+import fr.pixfri.pixfrimod.config.PixfriModCommonConfigs;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.OreFeatures;
@@ -54,10 +55,12 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHERRACK_CITRINE_ORE.get().defaultBlockState()));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> CITRINE_ORE = FeatureUtils.register("citrine_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_CITRINE_ORES, 9));
+            Feature.ORE, new OreConfiguration(OVERWORLD_CITRINE_ORES, PixfriModCommonConfigs.CITRINE_ORE_VEIN_SIZE.get()));
+
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> END_CITRINE_ORE = FeatureUtils.register("end_citrine_ore",
-            Feature.ORE, new OreConfiguration(END_CITRINE_ORES, 9));
+            Feature.ORE, new OreConfiguration(END_CITRINE_ORES, PixfriModCommonConfigs.END_CITRINE_ORE_VEIN_SIZE.get()));
+
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_CITRINE_ORE = FeatureUtils.register("nether_citrine_ore",
-            Feature.ORE, new OreConfiguration(NETHER_CITRINE_ORES, 9));
+            Feature.ORE, new OreConfiguration(NETHER_CITRINE_ORES, PixfriModCommonConfigs.NETHER_CITRINE_ORE_VEIN_SIZE.get()));
 
 }
