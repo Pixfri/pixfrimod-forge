@@ -49,13 +49,13 @@ public class ModBlocks {
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
-    public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
-            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(9f).requiresCorrectToolForDrops(), UniformInt.of(8, 10)), ModCreativeModeTab.PIXFRIMOD_TAB);
-
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)), ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(9f).requiresCorrectToolForDrops(), UniformInt.of(8, 10)), ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
