@@ -21,6 +21,7 @@ import fr.pixfri.pixfrimod.sound.ModSounds;
 import fr.pixfri.pixfrimod.util.BetterBrewingRecipe;
 import fr.pixfri.pixfrimod.util.ModItemProperties;
 import fr.pixfri.pixfrimod.villager.ModVillagers;
+import fr.pixfri.pixfrimod.world.structure.ModStructures;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -54,7 +55,7 @@ public class PixfriMod {
     public static final String MOD_ID = "pixfrimod";
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     // Add a comment
     public PixfriMod() {
@@ -80,6 +81,8 @@ public class PixfriMod {
 
         ModEntityTypes.register(eventBus);
         ModVillagers.register(eventBus);
+
+        ModStructures.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);

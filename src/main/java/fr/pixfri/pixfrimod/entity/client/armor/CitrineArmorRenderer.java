@@ -17,5 +17,4 @@ public class CitrineArmorRenderer extends GeoArmorRenderer<CitrineArmorItem> {
         this.leftBootBone = "armorLeftBoot";
 
     }
-
 }
