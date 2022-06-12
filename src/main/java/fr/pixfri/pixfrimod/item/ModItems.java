@@ -92,7 +92,7 @@ public class ModItems {
             () -> new RecordItem(4, ModSounds.BAR_BRAWL,
                     new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).stacksTo(1)));
 
-    public static final RegistryObject<Item> CITRINE_STAFF = ITEMS.register("citrine_staff", CatalystItem::new);
+    public static final RegistryObject<Item> CITRINE_STAFF = ITEMS.register("citrine_staff", CitrineStaffItem::new);
 
     public static final RegistryObject<Item> GEM_CUTTER_TOOL = ITEMS.register("gem_cutter_tool",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB).durability(32)));

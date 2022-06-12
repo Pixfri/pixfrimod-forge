@@ -18,6 +18,6 @@ public class CitrineArmorModel extends AnimatedGeoModel<CitrineArmorItem> {
 
     @Override
     public ResourceLocation getAnimationFileLocation(CitrineArmorItem animatable) {
-        return new ResourceLocation(PixfriMod.MOD_ID, "animations/armor_animation.json");
+        return new ResourceLocation(PixfriMod.MOD_ID, "animations/armor.animation.json");
     }
 }
