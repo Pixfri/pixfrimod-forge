@@ -13,6 +13,9 @@ public class ModTags {
         public static final TagKey<Block> DOWSING_ROD_VALUABLES
                 = tag("dowsing_rod_valuables");
 
+        public static final TagKey<Block> PORTAL_FRAME_BLOCKS
+                = tag("portal_frame_blocks");
+
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(PixfriMod.MOD_ID, name));
         }

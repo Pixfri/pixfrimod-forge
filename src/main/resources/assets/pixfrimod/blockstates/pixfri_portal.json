@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "axis=z": { "model": "pixfrimod:block/pixfri_portal_ew" },
+    "axis=x": { "model": "pixfrimod:block/pixfri_portal_ns" }
+  }
+}

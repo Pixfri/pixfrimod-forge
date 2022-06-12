@@ -9,5 +9,9 @@ Structures:
     Most of this taken from: https://github.com/TelepathicGrunt/StructureTutorialMod
     under MIT License: https://github.com/TelepathicGrunt/StructureTutorialMod/blob/1.18.2-Forge-Jigsaw/LICENSE.txt
 
+Pixfri Dimension portal:
+    ModTeleporter, CatalystItem, PixfriPortalBlock largely from https://github.com/quek04/The-Undergarden
+    Under MIT-License: https://github.com/quek04/The-Undergarden/blob/1.18/LICENSE
+
 distributed under CC BY-SA 4.0 International License:
 https://creativecommons.org/licenses/by-sa/4.0/

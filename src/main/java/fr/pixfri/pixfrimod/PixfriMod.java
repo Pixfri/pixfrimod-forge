@@ -20,6 +20,7 @@ import fr.pixfri.pixfrimod.screen.ModMenuTypes;
 import fr.pixfri.pixfrimod.sound.ModSounds;
 import fr.pixfri.pixfrimod.util.BetterBrewingRecipe;
 import fr.pixfri.pixfrimod.util.ModItemProperties;
+import fr.pixfri.pixfrimod.villager.ModPOIs;
 import fr.pixfri.pixfrimod.villager.ModVillagers;
 import fr.pixfri.pixfrimod.world.dimension.ModDimensions;
 import fr.pixfri.pixfrimod.world.structure.ModStructures;
@@ -86,6 +87,8 @@ public class PixfriMod {
         ModStructures.register(eventBus);
         ModDimensions.register();
 
+        ModPOIs.register(eventBus);
+
         eventBus.addListener(this::setup);
         eventBus.addListener(this::ClientSetup);
 
@@ -117,6 +120,8 @@ public class PixfriMod {
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_BLOCK.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLUID.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLOWING.get(), RenderType.translucent());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIXFRI_PORTAL.get(), RenderType.translucent());
 
         ModItemProperties.addCustomItemProperties();
 

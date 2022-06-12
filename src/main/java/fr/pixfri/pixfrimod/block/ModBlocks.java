@@ -189,6 +189,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CITRINE_STATUE = registerBlock("citrine_statue",
             () -> new CitrineStatueBlock(BlockBehaviour.Properties.copy(CITRINE_BLOCK.get())), ModCreativeModeTab.PIXFRIMOD_TAB);
 
+    public static final RegistryObject<Block> PIXFRI_PORTAL = registerBlockWithoutBlockItem("pixfri_portal",
+            PixfriPortalBlock::new);
+
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
     }
