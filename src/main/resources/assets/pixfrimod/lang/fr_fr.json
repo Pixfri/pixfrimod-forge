@@ -24,6 +24,7 @@
   "item.pixfrimod.honey_bucket": "Seau de Miel",
   "item.pixfrimod.raccoon_spawn_egg": "Oeuf d'apparition de raton laveur",
   "item.pixfrimod.acorn": "Gland",
+  "item.pixfrimod.levitating_gold": "Or Lévitant",
 
   "item.minecraft.potion.effect.freeze_potion": "Potion de gel",
   "item.minecraft.splash_potion.effect.freeze_potion": "Potion de gel jetable",
@@ -61,6 +62,7 @@
   "block.pixfrimod.gem_cutting_station": "Station de coupe de gemmes",
   "block.pixfrimod.ebony_sign": "Panneau en Ebony",
   "block.pixfrimod.citrine_statue": "Statue de Citrine",
+  "block.pixfrimod.levitating_gold": "Or Lévitant",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 

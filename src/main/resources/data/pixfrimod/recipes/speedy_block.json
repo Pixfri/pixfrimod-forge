@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S#S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "#": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:speedy_block",
+    "count": 4
+  }
+}

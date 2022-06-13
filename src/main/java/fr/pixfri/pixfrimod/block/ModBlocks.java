@@ -192,6 +192,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PIXFRI_PORTAL = registerBlockWithoutBlockItem("pixfri_portal",
             PixfriPortalBlock::new);
 
+    public static final RegistryObject<Block> LEVITATING_GOLD = registerBlockWithoutBlockItem("levitating_gold",
+            () -> new LevitatingGoldBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()));
+
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
     }

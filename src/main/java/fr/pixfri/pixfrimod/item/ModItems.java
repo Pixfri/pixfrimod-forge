@@ -112,6 +112,10 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntityTypes.RACCOON, 0x948e8d, 0x3b3635,
                     new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
+    public static final RegistryObject<Item> LEVITATING_GOLD_ITEM = ITEMS.register("levitating_gold",
+            () -> new LevitatingGoldItem(ModBlocks.LEVITATING_GOLD.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -26,6 +26,7 @@
   "item.pixfrimod.honey_bucket": "Honey Bucket",
   "item.pixfrimod.raccoon_spawn_egg": "Raccoon Spawn Egg",
   "item.pixfrimod.acorn": "Acorn",
+  "item.pixfrimod.levitating_gold": "Levitating Gold",
 
   "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
   "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
@@ -63,6 +64,7 @@
   "block.pixfrimod.gem_cutting_station": "Gem Cutting Station",
   "block.pixfrimod.ebony_sign": "Ebony Sign",
   "block.pixfrimod.citrine_statue": "Statue of Citrine",
+  "block.pixfrimod.levitating_gold": "Levitating Gold",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
