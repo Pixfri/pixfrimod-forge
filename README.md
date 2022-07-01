@@ -1,14 +1,6 @@
 # PixfriMod
 PixfriMod for Forge
 
-## Install Gradle
-
-If Gradle 7.4.1 or higher is already installed on your computer you can skip this part.
-
-When you have downloaded the Gradle zip file in the dependencies, unzip it in the folder you want and now type "Edit the system environnement variables" in the windows search bar. Launch the first app. Click on the "Environnement variables" button then search "Path" and add the value " "gradle installation path"\bin".
-
-Now restart your system and Gradle is installed.
-
 ## Build the mod
 
 This is an 1.18.2 Minecraft mod.
