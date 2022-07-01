@@ -12,9 +12,6 @@ Now you have the mod jar file and you can add it into your mods folder with the 
 
 ## Dependencies
 
-### build:
-[Gradle](https://downloads.gradle-dn.com/distributions/gradle-7.4.2-all.zip)
-
 ### Run:
 [Forge 1.18.2-40.0.36](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.0.36/forge-1.18.2-40.0.36-installer.jar) or a newer version  
 [JEI 9.5.5.174 minimal](https://media.forgecdn.net/files/3723/913/jei-1.18.2-9.5.5.174.jar)  
