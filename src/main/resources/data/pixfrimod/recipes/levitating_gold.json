@@ -12,5 +12,8 @@
     "B": {
       "item": "minecraft:blackstone"
     }
+  },
+  "result": {
+    "item": "pixfrimod:levitating_gold"
   }
 }

@@ -48,6 +48,10 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.CITRINE_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_CITRINE_ORE.get().defaultBlockState()));
 
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TITANIUM_ORES = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TITANIUM_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TITANIUM_ORE.get().defaultBlockState()));
+
     public static final List<OreConfiguration.TargetBlockState> END_CITRINE_ORES = List.of(
             OreConfiguration.target(new BlockMatchTest(Blocks.END_STONE), ModBlocks.ENDSTONE_CITRINE_ORE.get().defaultBlockState()));
 
@@ -56,6 +60,9 @@ public class ModConfiguredFeatures {
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> CITRINE_ORE = FeatureUtils.register("citrine_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_CITRINE_ORES, PixfriModCommonConfigs.CITRINE_ORE_VEIN_SIZE.get()));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TITANIUM_ORE = FeatureUtils.register("titanium_ore",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TITANIUM_ORES, PixfriModCommonConfigs.TITANIUM_ORE_VEIN_SIZE.get()));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> END_CITRINE_ORE = FeatureUtils.register("end_citrine_ore",
             Feature.ORE, new OreConfiguration(END_CITRINE_ORES, PixfriModCommonConfigs.END_CITRINE_ORE_VEIN_SIZE.get()));

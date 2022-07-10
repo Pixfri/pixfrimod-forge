@@ -195,6 +195,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> LEVITATING_GOLD = registerBlockWithoutBlockItem("levitating_gold",
             () -> new LevitatingGoldBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion()));
 
+    public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+                    .strength(15f).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)
+                    .strength(25.0F, 1200.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)
+                    .strength(30.0F, 1200.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
     }

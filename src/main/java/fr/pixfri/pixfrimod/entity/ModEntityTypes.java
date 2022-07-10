@@ -19,8 +19,6 @@ public class ModEntityTypes {
                     .sized(0.8f, 0.6f)
                     .build(new ResourceLocation(PixfriMod.MOD_ID, "raccoon").toString()));
 
-    //TODO: Add squirrels
-
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
     }

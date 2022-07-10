@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pixfrimod:deepslate_titanium_ore"
+  },
+  "result": "pixfrimod:titanium",
+  "experience": 1.8,
+  "cookingtime": 850
+}

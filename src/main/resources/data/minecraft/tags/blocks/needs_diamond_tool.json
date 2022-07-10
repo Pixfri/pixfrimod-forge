@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "pixfrimod:titanium_block",
+    "pixfrimod:titanium_ore",
+    "pixfrimod:deepslate_titanium_ore"
   ]
 }

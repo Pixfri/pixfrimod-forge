@@ -1,0 +1,11 @@
+{
+  "type": "pixfrimod:gem_cutting",
+  "ingredients": [
+    {
+      "item": "pixfrimod:titanium_ore"
+    }
+  ],
+  "output": {
+    "item": "pixfrimod:titanium"
+  }
+}

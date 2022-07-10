@@ -10,6 +10,9 @@ public class PixfriModCommonConfigs {
     public static final ForgeConfigSpec.ConfigValue<Integer> CITRINE_ORE_VEINS_PER_CHUNK;
     public static final ForgeConfigSpec.ConfigValue<Integer> CITRINE_ORE_VEIN_SIZE;
 
+    public static final ForgeConfigSpec.ConfigValue<Integer> TITANIUM_ORE_VEINS_PER_CHUNK;
+    public static final ForgeConfigSpec.ConfigValue<Integer> TITANIUM_ORE_VEIN_SIZE;
+
     // nether
     public static final ForgeConfigSpec.ConfigValue<Integer> NETHER_CITRINE_ORE_VEINS_PER_CHUNK;
     public static final ForgeConfigSpec.ConfigValue<Integer> NETHER_CITRINE_ORE_VEIN_SIZE;
@@ -23,21 +26,26 @@ public class PixfriModCommonConfigs {
 
         // overworld
         CITRINE_ORE_VEINS_PER_CHUNK = BUILDER.comment("How many Citrine Ore Veins spawn per chunk in the overworld!")
-                .define("Overworld Veins Per Chunk", 7);
+                .define("Overworld Citrine Veins Per Chunk", 7);
         CITRINE_ORE_VEIN_SIZE = BUILDER.comment("How many Citrine Ore Blocks spawn in one Vein in the overworld!")
-                .defineInRange("Overworld Vein Size", 9, 4, 20);
+                .defineInRange("Overworld Citrine Vein Size", 9, 4, 20);
+
+        TITANIUM_ORE_VEINS_PER_CHUNK = BUILDER.comment("How many Titanium Ore Veins spawn per chunk in the overworld!")
+                .define("Overworld Titanium Veins Per Chunk", 4);
+        TITANIUM_ORE_VEIN_SIZE = BUILDER.comment("How many Titanium Ore Blocks spawn in one Vein in the overworld!")
+                .defineInRange("Overworld Titanium Vein Size", 12, 4, 30);
 
         // nether
         NETHER_CITRINE_ORE_VEINS_PER_CHUNK = BUILDER.comment("How many Citrine Ore Veins spawn per chunk in the nether!")
-                .define("Nether Veins Per Chunk", 7);
+                .define("Nether Citrine Veins Per Chunk", 7);
         NETHER_CITRINE_ORE_VEIN_SIZE = BUILDER.comment("How many Citrine Ore Blocks spawn in one Vein in the nether!")
-                .defineInRange("Nether Vein Size", 9, 4, 20);
+                .defineInRange("Nether Citrine Vein Size", 9, 4, 20);
 
         // end
         END_CITRINE_ORE_VEINS_PER_CHUNK = BUILDER.comment("How many Citrine Ore Veins spawn per chunk in the end!")
-                .define("End Veins Per Chunk", 7);
+                .define("End Citrine Veins Per Chunk", 7);
         END_CITRINE_ORE_VEIN_SIZE = BUILDER.comment("How many Citrine Ore Blocks spawn in one Vein in the end!")
-                .defineInRange("End Vein Size", 9, 4, 20);
+                .defineInRange("End Citrine Vein Size", 9, 4, 20);
 
         BUILDER.pop();
         SPEC = BUILDER.build();

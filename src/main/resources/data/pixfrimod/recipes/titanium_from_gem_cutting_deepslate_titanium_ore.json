@@ -2,10 +2,10 @@
   "type": "pixfrimod:gem_cutting",
   "ingredients": [
     {
-      "item": "pixfrimod:raw_citrine"
+      "item": "pixfrimod:deepslate_titanium_ore"
     }
   ],
   "output": {
-    "item": "pixfrimod:citrine"
+    "item": "pixfrimod:titanium"
   }
 }

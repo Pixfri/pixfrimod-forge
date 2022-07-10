@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "pixfrimod:titanium"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:titanium_block",
+    "count": 8
+  }
+}
