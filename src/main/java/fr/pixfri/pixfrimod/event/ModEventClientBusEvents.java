@@ -83,4 +83,9 @@ public class ModEventClientBusEvents {
         Minecraft.getInstance().particleEngine.register(ModParticles.CITRINE_PARTICLES.get(),
                 CitrineParticles.Provider::new);
     }
+
+    @SubscribeEvent
+    public static void registerEntityRenderers(final EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(ModEntityTypes.RACCOON.get(), RaccoonRenderer::new);
+    }
 }

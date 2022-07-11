@@ -3,6 +3,8 @@ package fr.pixfri.pixfrimod.entity.client;
 import com.google.common.collect.Maps;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.math.Quaternion;
+import com.mojang.math.Vector3f;
 import fr.pixfri.pixfrimod.PixfriMod;
 import fr.pixfri.pixfrimod.entity.custom.RaccoonEntity;
 import fr.pixfri.pixfrimod.entity.variant.RaccoonVariant;
@@ -11,6 +13,7 @@ import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;
+import org.lwjgl.system.CallbackI;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 
 import java.util.Map;
@@ -45,6 +48,8 @@ public class RaccoonRenderer extends GeoEntityRenderer<RaccoonEntity> {
         } else {
             stack.scale(0.8F, 0.8F, 0.8F);
         }
+
+        stack.mulPose(Quaternion.fromXYZDegrees(new Vector3f(0f, 90f, 0f)));
 
         return super.getRenderType(animatable, partialTicks, stack, renderTypeBuffer, vertexBuilder, packedLightIn, textureLocation);
     }

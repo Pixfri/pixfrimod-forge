@@ -14,5 +14,5 @@ Now you have the mod jar file and you can add it into your mods folder with the 
 
 ### Run:
 [Forge 1.18.2-40.0.36](https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.0.36/forge-1.18.2-40.0.36-installer.jar) or a newer version  
-[JEI 9.5.5.174 ](https://media.forgecdn.net/files/3723/913/jei-1.18.2-9.5.5.174.jar) or higher  
-[GeckoLib](https://media.forgecdn.net/files/3819/967/geckolib-fabric-1.18-3.0.45.jar) (latest 1.18.2 GeckoLib version)
+[JEI 9.5.5.174](https://media.forgecdn.net/files/3723/913/jei-1.18.2-9.5.5.174.jar) or higher  
+[GeckoLib](https://mediafiles.forgecdn.net/files/3856/641/geckolib-forge-1.18-3.0.28.jar) (latest 1.18.2 GeckoLib version)
