@@ -33,7 +33,7 @@ public class GemCuttingStationRecipeCategory implements IRecipeCategory<GemCutti
         this.icon = helper.createDrawableIngredient(VanillaTypes.ITEM, new ItemStack(ModBlocks.GEM_CUTTING_STATION.get()));
     }
 
-    @SuppressWarnings("removal") // I don't know why these two methods is for removal because forge didn't remove this yet
+    @SuppressWarnings("removal")
     @Override
     public ResourceLocation getUid() {
         return UID;

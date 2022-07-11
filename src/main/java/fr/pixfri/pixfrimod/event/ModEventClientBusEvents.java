@@ -5,6 +5,7 @@ import fr.pixfri.pixfrimod.block.ModBlocks;
 import fr.pixfri.pixfrimod.block.entity.ModBlockEntities;
 import fr.pixfri.pixfrimod.block.entity.ModWoodTypes;
 import fr.pixfri.pixfrimod.block.entity.client.LevitatingGoldRenderer;
+import fr.pixfri.pixfrimod.block.entity.custom.GemCuttingStationBlockEntity;
 import fr.pixfri.pixfrimod.entity.ModEntityTypes;
 import fr.pixfri.pixfrimod.entity.client.RaccoonRenderer;
 import fr.pixfri.pixfrimod.entity.client.armor.CitrineArmorRenderer;
@@ -40,6 +41,7 @@ public class ModEventClientBusEvents {
 
     @SubscribeEvent
     public static void registerRenderers(final EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(ModEntityTypes.RACCOON.get(), RaccoonRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.LEVITATING_GOLD_ENTITY.get(), LevitatingGoldRenderer::new);
     }
 
@@ -64,7 +66,6 @@ public class ModEventClientBusEvents {
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLUID.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLOWING.get(), RenderType.translucent());
 
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIXFRI_PORTAL.get(), RenderType.translucent());
 
         ModItemProperties.addCustomItemProperties();
 
@@ -75,6 +76,8 @@ public class ModEventClientBusEvents {
 
         EntityRenderers.register(ModEntityTypes.RACCOON.get(), RaccoonRenderer::new);
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIXFRI_PORTAL.get(), RenderType.translucent());
+
         PixfriMod.LOGGER.info("Client has been setup successfully");
     }
 
@@ -82,10 +85,5 @@ public class ModEventClientBusEvents {
     public static void registerParticleFactories(final ParticleFactoryRegisterEvent event) {
         Minecraft.getInstance().particleEngine.register(ModParticles.CITRINE_PARTICLES.get(),
                 CitrineParticles.Provider::new);
-    }
-
-    @SubscribeEvent
-    public static void registerEntityRenderers(final EntityRenderersEvent.RegisterRenderers event) {
-        event.registerEntityRenderer(ModEntityTypes.RACCOON.get(), RaccoonRenderer::new);
     }
 }
