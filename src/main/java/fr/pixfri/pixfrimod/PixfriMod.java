@@ -13,6 +13,8 @@ import fr.pixfri.pixfrimod.item.ModItems;
 import fr.pixfri.pixfrimod.painting.ModPaintings;
 import fr.pixfri.pixfrimod.particle.ModParticles;
 import fr.pixfri.pixfrimod.potion.ModPotions;
+import fr.pixfri.pixfrimod.recipe.ModRecipes;
+import fr.pixfri.pixfrimod.screen.ModMenuTypes;
 import fr.pixfri.pixfrimod.sound.ModSounds;
 import fr.pixfri.pixfrimod.util.BetterBrewingRecipe;
 import fr.pixfri.pixfrimod.villager.ModPOIs;
@@ -60,6 +62,9 @@ public class PixfriMod {
         ModPotions.register(eventBus);
 
         ModBlockEntities.register(eventBus);
+        ModMenuTypes.register(eventBus);
+
+        ModRecipes.register(eventBus);
 
         ModParticles.register(eventBus);
 

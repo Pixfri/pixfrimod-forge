@@ -40,7 +40,7 @@ public class ModEvents {
                     stack,4,12,0.09F));
         }
 
-        if(event.getType() == ModVillagers.GEM_CUTTER.get()) {
+       if(event.getType() == ModVillagers.GEM_CUTTER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.CITRINE.get(), 2);
             int villagerLevel = 1;

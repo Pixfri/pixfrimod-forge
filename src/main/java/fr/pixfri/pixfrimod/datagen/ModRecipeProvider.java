@@ -1,6 +1,7 @@
 package fr.pixfri.pixfrimod.datagen;
 
 import fr.pixfri.pixfrimod.block.ModBlocks;
+/*import fr.pixfri.pixfrimod.datagen.custom.GemCuttingRecipeBuilder;*/
 import fr.pixfri.pixfrimod.datagen.custom.GemCuttingRecipeBuilder;
 import fr.pixfri.pixfrimod.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;

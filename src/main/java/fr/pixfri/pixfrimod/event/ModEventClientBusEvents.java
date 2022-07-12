@@ -12,8 +12,12 @@ import fr.pixfri.pixfrimod.fluid.ModFluids;
 import fr.pixfri.pixfrimod.item.custom.CitrineArmorItem;
 import fr.pixfri.pixfrimod.particle.ModParticles;
 import fr.pixfri.pixfrimod.particle.custom.CitrineParticles;
+import fr.pixfri.pixfrimod.screen.GemCuttingStationMenu;
+import fr.pixfri.pixfrimod.screen.GemCuttingStationScreen;
+import fr.pixfri.pixfrimod.screen.ModMenuTypes;
 import fr.pixfri.pixfrimod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
@@ -27,7 +31,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
-
 @Mod.EventBusSubscriber(modid = PixfriMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ModEventClientBusEvents {
     @SubscribeEvent
@@ -37,12 +40,11 @@ public class ModEventClientBusEvents {
 
     @SubscribeEvent
     public static void registerRenderers(final EntityRenderersEvent.RegisterRenderers event) {
-        event.registerEntityRenderer(ModEntityTypes.RACCOON.get(), RaccoonRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.LEVITATING_GOLD_ENTITY.get(), LevitatingGoldRenderer::new);
     }
 
     @SubscribeEvent
-    public void clientSetup(final FMLClientSetupEvent event) {
+    public static void clientSetup(final FMLClientSetupEvent event) {
         PixfriMod.LOGGER.info("Setting up client");
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_TRAPDOOR.get(), RenderType.translucent());
@@ -56,12 +58,15 @@ public class ModEventClientBusEvents {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.EBONY_SAPLING.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GEM_CUTTING_STATION.get(), RenderType.translucent());
+
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_BLOCK.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLUID.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModFluids.HONEY_FLOWING.get(), RenderType.translucent());
 
-
         ModItemProperties.addCustomItemProperties();
+
+        MenuScreens.register(ModMenuTypes.GEM_CUTTING_STATION_MENU.get(), GemCuttingStationScreen::new);
 
         WoodType.register(ModWoodTypes.EBONY);
         BlockEntityRenderers.register(ModBlockEntities.SIGN_BLOCK_ENTITIES.get(), SignRenderer::new);
