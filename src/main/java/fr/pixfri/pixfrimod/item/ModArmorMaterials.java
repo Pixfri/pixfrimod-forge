@@ -13,7 +13,10 @@ import java.util.function.Supplier;
 @SuppressWarnings("deprecation")
 public enum ModArmorMaterials implements ArmorMaterial {
     CITRINE("citrine", 28, new int[]{2, 5, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_GOLD,
-            2.0F, 0.0F, () -> Ingredient.of(ModItems.CITRINE.get()));
+            2.0F, 0.0F, () -> Ingredient.of(ModItems.CITRINE.get())),
+
+    TITANIUM("titanium", 28, new int[]{8, 20, 32, 12}, 22, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            4.0F, 0.5F, () -> Ingredient.of(ModItems.TITANIUM.get()));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

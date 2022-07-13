@@ -16,7 +16,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.01-1.18.2'
+version = '1.0.02-1.18.2'
 group = 'fr.pixfri.pixfrimod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'pixfrimod'
 
@@ -181,7 +181,7 @@ dependencies {
     runtimeOnly 'com.eliotlash.molang:molang:18'
 
     // GeckoLib
-    implementation fg.deobf('software.bernie.geckolib:geckolib-1.18-forge:3.0.23')
+    implementation fg.deobf('software.bernie.geckolib:geckolib-1.18-forge:3.0.21')
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
