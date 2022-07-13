@@ -37,4 +37,10 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.TITANIUM_ORE, ModOrePlacement.rareOrePlacement(
                     PixfriModCommonConfigs.TITANIUM_ORE_VEINS_PER_CHUNK.get(), // veinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+
+    // coltan
+    public static final Holder<PlacedFeature> COLTAN_ORE_PLACED = PlacementUtils.register("coltan_ore_placed",
+            ModConfiguredFeatures.COLTAN_ORE, ModOrePlacement.commonOrePlacement(
+                    PixfriModCommonConfigs.COLTAN_ORE_VEINS_PER_CHUNK.get(), // veinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 }

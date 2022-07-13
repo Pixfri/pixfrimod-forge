@@ -35,6 +35,7 @@
   "item.pixfrimod.titanium_chestplate": "Plastron en Titane",
   "item.pixfrimod.titanium_leggings": "Jambières en Titane",
   "item.pixfrimod.titanium_boots": "Botes en Titane",
+  "item.pixfrimod.coltan": "Coltan",
 
   "item.minecraft.potion.effect.freeze_potion": "Potion de gel",
   "item.minecraft.splash_potion.effect.freeze_potion": "Potion de gel jetable",
@@ -76,6 +77,9 @@
   "block.pixfrimod.titanium_block": "Bloc de Titane",
   "block.pixfrimod.titanium_ore": "Minerai de Titane",
   "block.pixfrimod.deepslate_titanium_ore": "Minerai de Titane en Pierre des Abysses",
+  "block.pixfrimod.coltan_block": "Bloc de Coltan",
+  "block.pixfrimod.coltan_ore": "Minerai Coltan",
+  "block.pixfrimod.deepslate_coltan_ore": "Minerai de Coltan en Pierre des Abysses",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 

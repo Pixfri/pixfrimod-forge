@@ -201,11 +201,28 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)
-                    .strength(25.0F, 1200.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+                    .strength(25.0F, 1200.0F).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.PIXFRIMOD_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)
-                    .strength(30.0F, 1200.0F).requiresCorrectToolForDrops()), ModCreativeModeTab.PIXFRIMOD_TAB);
+                    .strength(30.0F, 1200.0F).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> COLTAN_BLOCK = registerBlock("coltan_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(10f, 1.5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> COLTAN_ORE = registerBlock("coltan_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)
+                    .strength(5f, 1.5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.PIXFRIMOD_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_COLTAN_ORE = registerBlock("deepslate_coltan_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                    .strength(12.5f, 1.5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.PIXFRIMOD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);

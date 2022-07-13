@@ -18,10 +18,10 @@
     "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "tag": [
+        "items": [
           {
-            "tag": [
-              "forge:gems/titanium"
+            "items": [
+              "pixfrimod:titanium"
             ]
           }
         ]

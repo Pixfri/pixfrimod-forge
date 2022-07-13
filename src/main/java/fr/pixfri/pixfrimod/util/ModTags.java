@@ -26,8 +26,9 @@ public class ModTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> TITANIUM = forgeTag("gems/titanium");
         public static final TagKey<Item> CITRINE_GEMS = forgeTag("gems/citrine");
+        public static final TagKey<Item> TITANIUM_GEMS = forgeTag("gems/titanium");
+        public static final TagKey<Item> COLTAN_GEMS = forgeTag("gems/coltan");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(PixfriMod.MOD_ID, name));

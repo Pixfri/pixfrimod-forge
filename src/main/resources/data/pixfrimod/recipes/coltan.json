@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crating_shapeless",
+  "ingredients": [
+    {
+      "item": "pixfrimod:coltan_block"
+    }
+  ],
+  "result": {
+    "item": "pixfrimod:coltan",
+    "count": 9
+  }
+}

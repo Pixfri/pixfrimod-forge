@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pixfrimod:coltan_ore"
+  },
+  "result": "pixfrimod:coltan",
+  "experience": 1.0,
+  "cookingtime": 450
+}

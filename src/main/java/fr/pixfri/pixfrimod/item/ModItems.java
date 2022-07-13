@@ -155,6 +155,9 @@ public class ModItems {
             () -> new TitaniumArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
+    public static final RegistryObject<Item> COLTAN = ITEMS.register("coltan",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

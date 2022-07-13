@@ -13,6 +13,9 @@ public class PixfriModCommonConfigs {
     public static final ForgeConfigSpec.ConfigValue<Integer> TITANIUM_ORE_VEINS_PER_CHUNK;
     public static final ForgeConfigSpec.ConfigValue<Integer> TITANIUM_ORE_VEIN_SIZE;
 
+    public static final ForgeConfigSpec.ConfigValue<Integer> COLTAN_ORE_VEINS_PER_CHUNK;
+    public static final ForgeConfigSpec.ConfigValue<Integer> COLTAN_ORE_VEIN_SIZE;
+
     // nether
     public static final ForgeConfigSpec.ConfigValue<Integer> NETHER_CITRINE_ORE_VEINS_PER_CHUNK;
     public static final ForgeConfigSpec.ConfigValue<Integer> NETHER_CITRINE_ORE_VEIN_SIZE;
@@ -34,6 +37,11 @@ public class PixfriModCommonConfigs {
                 .define("Overworld Titanium Veins Per Chunk", 4);
         TITANIUM_ORE_VEIN_SIZE = BUILDER.comment("How many Titanium Ore Blocks spawn in one Vein in the overworld!")
                 .defineInRange("Overworld Titanium Vein Size", 12, 4, 30);
+
+        COLTAN_ORE_VEINS_PER_CHUNK = BUILDER.comment("How many Coltan Ore Veins spawn per chunk in the overworld!")
+                .define("Overworld Coltan Veins Per Chunk", 9);
+        COLTAN_ORE_VEIN_SIZE = BUILDER.comment("How many Coltan Ore Blocks spawn in one Vein in the overworld!")
+                .defineInRange("Overworld Coltan Vein Size", 12, 3, 20);
 
         // nether
         NETHER_CITRINE_ORE_VEINS_PER_CHUNK = BUILDER.comment("How many Citrine Ore Veins spawn per chunk in the nether!")

@@ -37,6 +37,7 @@
   "item.pixfrimod.titanium_chestplate": "Titanium Chestplate",
   "item.pixfrimod.titanium_leggings": "Titanium Leggings",
   "item.pixfrimod.titanium_boots": "Titanium Boots",
+  "item.pixfrimod.coltan": "Coltan",
 
   "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
   "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
@@ -78,6 +79,9 @@
   "block.pixfrimod.titanium_block": "Block of Titanium",
   "block.pixfrimod.titanium_ore": "Titanium Ore",
   "block.pixfrimod.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.pixfrimod.coltan_block": "Block of Coltan",
+  "block.pixfrimod.coltan_ore": "Coltan Ore",
+  "block.pixfrimod.deepslate_coltan_ore": "Deepslate Coltan Ore",
 
   "itemGroup.pixfrimod_tab": "Pixfri Mod",
 
