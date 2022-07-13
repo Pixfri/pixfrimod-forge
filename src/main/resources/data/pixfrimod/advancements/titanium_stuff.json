@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "pixfrimod:titanium_block"
+    },
+    "title": {
+      "translate": "advancements.pixfrimod.titanium_stuff.title"
+    },
+    "description": {
+      "translate": "advancements.pixfrimod.titanium_stuff.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pixfrimod:titanium",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:titanium",
+              "pixfrimod:titanium_block",
+              "pixfrimod:titanium_helmet",
+              "pixfrimod:titanium_chestplate",
+              "pixfrimod:titanium_leggings",
+              "pixfrimod:titanium_boots",
+              "pixfrimod:titanium_sword",
+              "pixfrimod:titanium_pickaxe",
+              "pixfrimod:titanium_shovel",
+              "pixfrimod:titanium_axe",
+              "pixfrimod:titanium_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

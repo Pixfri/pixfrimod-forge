@@ -101,5 +101,14 @@
   "gui.pixfrimod.title.gem_cutting_station_title": "Gem Cutting Station",
   "gui.pixfrimod.title.jei_gem_cutting_station_title": "Gem Cutting Station",
 
+  "advancements.pixfrimod.pixfrimod.title": "Pixfri Mod",
+  "advancements.pixfrimod.pixfrimod.description": "The Power lies in the Citrine!",
+  "advancements.pixfrimod.dowsing_rod.title": "Dowsing Rod",
+  "advancements.pixfrimod.dowsing_rod.description": "If it doesn't work, the Rod doesn't like you!",
+  "advancements.pixfrimod.titanium.title": "Titanium",
+  "advancements.pixfrimod.titanium.description": "Bravo because you have recovered titanium thanks to your courage!",
+  "advancements.pixfrimod.titanium_stuff.title": "Titan's Stuff",
+  "advancements.pixfrimod.titanium_stuff.description": "Bravo for your titan work!",
+
   "entity.minecraft.villager.pixfrimod.gem_cutter": "Gem Cutter"
 }

@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "pixfrimod:dowsing_rod"
+      "item": "pixfrimod:titanium"
     },
     "title": {
-      "translate": "advancements.pixfrimod.dowsing_rod.title"
+      "translate": "advancements.pixfrimod.titanium.title"
     },
     "description": {
-      "translate": "advancements.pixfrimod.dowsing_rod.description"
+      "translate": "advancements.pixfrimod.titanium.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -18,10 +18,10 @@
     "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
+        "tag": [
           {
-            "items": [
-              "pixfrimod:dowsing_rod"
+            "tag": [
+              "forge:gems/titanium"
             ]
           }
         ]

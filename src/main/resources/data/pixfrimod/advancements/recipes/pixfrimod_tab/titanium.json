@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pixfrimod:titanium"
+    ]
+  },
+  "criteria": {
+    "has_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:titanium_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_deepslate_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:deepslate_titanium_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pixfrimod:titanium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_titanium_ore",
+      "has_deepslate_titanium_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

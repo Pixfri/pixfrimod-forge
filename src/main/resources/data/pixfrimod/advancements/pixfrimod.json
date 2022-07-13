@@ -3,8 +3,12 @@
     "icon": {
       "item": "pixfrimod:citrine"
     },
-    "title": "Pixfri Mod",
-    "description": "The Power lies in the Citrine!",
+    "title": {
+      "translate": "advancements.pixfrimod.pixfrimod.title"
+    },
+    "description": {
+      "translate": "advancements.pixfrimod.pixfrimod.description"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

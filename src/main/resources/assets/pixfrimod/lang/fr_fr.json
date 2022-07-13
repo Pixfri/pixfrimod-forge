@@ -99,5 +99,14 @@
   "gui.pixfrimod.title.gem_cutting_station_title": "Station de coupe de gemmes",
   "gui.pixfrimod.title.jei_gem_cutting_station_title": "Station de coupe de gemmes",
 
+  "advancements.pixfrimod.pixfrimod.title": "Pixfri Mod",
+  "advancements.pixfrimod.pixfrimod.description": "Le pouvoir réside dans la citrine !",
+  "advancements.pixfrimod.dowsing_rod.title": "Baguette de détection de Minerais",
+  "advancements.pixfrimod.dowsing_rod.description": "Si ça ne fonctionne pas, la baguette ne t'aime pas !",
+  "advancements.pixfrimod.titanium.title": "Titane",
+  "advancements.pixfrimod.titanium.description": "Bravo pour avoir récupéré du Titane grace à ton courrage",
+  "advancements.pixfrimod.titanium_stuff.title": "Matériel de titan",
+  "advancements.pixfrimod.titanium_stuff.description": "Bravo pour ton travail de titan",
+
   "entity.minecraft.villager.pixfrimod.gem_cutter": "Coupeur de gemmes"
 }

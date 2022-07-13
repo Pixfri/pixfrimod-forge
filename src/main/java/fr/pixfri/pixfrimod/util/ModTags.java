@@ -26,6 +26,7 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> TITANIUM = forgeTag("gems/titanium");
         public static final TagKey<Item> CITRINE_GEMS = forgeTag("gems/citrine");
 
         private static TagKey<Item> tag(String name) {
