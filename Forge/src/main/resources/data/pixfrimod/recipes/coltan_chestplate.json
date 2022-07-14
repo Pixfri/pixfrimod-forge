@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "pixfrimod:coltan",
+      "count": 4
+    }
+  },
+  "result": {
+    "item": "pixfrimod:coltan_chestplate"
+  }
+}

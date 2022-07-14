@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "pixfrimod:pixfrimod",
+  "parent": "pixfrimod:coltan",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

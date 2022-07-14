@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "pixfrimod:coltan_block"
+    },
+    "title": {
+      "translate": "advancements.pixfrimod.coltan_stuff.title"
+    },
+    "description": {
+      "translate": "advancements.pixfrimod.coltan_stuff.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pixfrimod:coltan",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:coltan",
+              "pixfrimod:coltan_block",
+              "pixfrimod:coltan_helmet",
+              "pixfrimod:coltan_chestplate",
+              "pixfrimod:coltan_leggings",
+              "pixfrimod:coltan_boots",
+              "pixfrimod:coltan_sword",
+              "pixfrimod:coltan_pickaxe",
+              "pixfrimod:coltan_shovel",
+              "pixfrimod:coltan_axe",
+              "pixfrimod:coltan_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

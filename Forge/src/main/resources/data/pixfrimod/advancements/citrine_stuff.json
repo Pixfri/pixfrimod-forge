@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "pixfrimod:citrine_block"
+    },
+    "title": {
+      "translate": "advancements.pixfrimod.citrine_stuff.title"
+    },
+    "description": {
+      "translate": "advancements.pixfrimod.citrine_stuff.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pixfrimod:pixfrimod",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pixfrimod:citrine",
+              "pixfrimod:citrine_block",
+              "pixfrimod:citrine_helmet",
+              "pixfrimod:citrine_chestplate",
+              "pixfrimod:citrine_leggings",
+              "pixfrimod:citrine_boots",
+              "pixfrimod:citrine_sword",
+              "pixfrimod:citrine_pickaxe",
+              "pixfrimod:citrine_shovel",
+              "pixfrimod:citrine_axe",
+              "pixfrimod:citrine_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

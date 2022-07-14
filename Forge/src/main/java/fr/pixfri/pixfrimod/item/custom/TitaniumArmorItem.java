@@ -17,7 +17,7 @@ public class TitaniumArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
                     .put(ModArmorMaterials.TITANIUM,
-                            new MobEffectInstance(MobEffects.HEALTH_BOOST, 20 * 1000000, 4,
+                            new MobEffectInstance(MobEffects.HEALTH_BOOST, 20 * 50000, 4,
                                     true, false)).build();
 
     public TitaniumArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {

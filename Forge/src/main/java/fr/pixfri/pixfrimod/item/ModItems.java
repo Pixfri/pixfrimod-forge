@@ -158,6 +158,42 @@ public class ModItems {
     public static final RegistryObject<Item> COLTAN = ITEMS.register("coltan",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
 
+    public static final RegistryObject<Item> COLTAN_SWORD = ITEMS.register("coltan_sword",
+            () -> new LightningSwordItem(ModTiers.COLTAN, 4, 6f,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_PICKAXE = ITEMS.register("coltan_pickaxe",
+            () -> new PickaxeItem(ModTiers.COLTAN, 2, 2f,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_SHOVEL = ITEMS.register("coltan_shovel",
+            () -> new ShovelItem(ModTiers.COLTAN, 1, 1.5f,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_AXE = ITEMS.register("coltan_axe",
+            () -> new AxeItem(ModTiers.COLTAN, 6, 4f,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_HOE = ITEMS.register("coltan_hoe",
+            () -> new HoeItem(ModTiers.COLTAN, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_HELMET = ITEMS.register("coltan_helmet",
+            () -> new ColtanArmorItem(ModArmorMaterials.COLTAN, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_CHESTPLATE = ITEMS.register("coltan_chestplate",
+            () -> new ColtanArmorItem(ModArmorMaterials.COLTAN, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_LEGGINGS = ITEMS.register("coltan_leggings",
+            () -> new ColtanArmorItem(ModArmorMaterials.COLTAN, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
+    public static final RegistryObject<Item> COLTAN_BOOTS = ITEMS.register("coltan_boots",
+            () -> new ColtanArmorItem(ModArmorMaterials.COLTAN, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.PIXFRIMOD_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

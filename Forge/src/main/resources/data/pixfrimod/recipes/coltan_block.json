@@ -7,8 +7,10 @@
   ],
   "key": {
     "C": {
-      "tag": "forge:gems/coltan",
-      "count": 4
+      "tag": "forge:gems/coltan"
     }
+  },
+  "result": {
+    "item": "pixfrimod:coltan_block"
   }
 }

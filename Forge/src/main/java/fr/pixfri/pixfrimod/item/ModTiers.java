@@ -9,6 +9,10 @@ public class ModTiers {
             2f, 22, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.CITRINE.get()));
 
+    public static final ForgeTier COLTAN = new ForgeTier(3, 1500, 6.5f,
+            4f, 26, BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(ModItems.COLTAN.get()));
+
     public static final ForgeTier TITANIUM = new ForgeTier(4, 3600, 15f,
             6f, 36, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(ModItems.TITANIUM.get()));

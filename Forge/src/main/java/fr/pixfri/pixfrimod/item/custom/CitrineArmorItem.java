@@ -26,7 +26,8 @@ public class CitrineArmorItem extends GeoArmorItem implements IAnimatable {
 
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.CITRINE, new MobEffectInstance(MobEffects.LUCK, 200, 1)).build();
+                    .put(ModArmorMaterials.CITRINE, new MobEffectInstance(MobEffects.LUCK, 20 * 1000000, 1))
+                    .build();
 
     public CitrineArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties settings) {
         super(material, slot, settings);
