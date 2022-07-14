@@ -1,8 +1,6 @@
 Textures:
-    Textures by nanoattack:
+    Textures by nanoattack and Starlotte:
     https://www.fiverr.com/nanoattack/help-design-and-draw-pixel-art
-
-    Textures (paintings) by Starlotte:
     https://www.curseforge.com/minecraft/mc-mods/sweet-not-savoury
 
 Structures:

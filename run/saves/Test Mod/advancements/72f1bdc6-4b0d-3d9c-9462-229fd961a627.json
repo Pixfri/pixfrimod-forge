@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2022-07-14 12:23:14 +0200",
+      "minecraft:river": "2022-07-14 12:21:40 +0200",
+      "minecraft:stony_shore": "2022-07-14 12:21:33 +0200",
+      "minecraft:forest": "2022-07-14 12:21:39 +0200",
+      "minecraft:jungle": "2022-07-14 12:27:15 +0200",
+      "minecraft:plains": "2022-07-14 12:21:41 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2865
+}

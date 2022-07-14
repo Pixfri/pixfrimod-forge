@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "pixfrimod:titanium"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:titanium_pickaxe"
+  }
+}

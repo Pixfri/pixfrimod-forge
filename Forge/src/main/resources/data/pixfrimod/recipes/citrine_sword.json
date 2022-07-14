@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": {
+      "item": "pixfrimod:citrine"
+    },
+    "S": {
+      "item": "pixfrimod:citrine_stick"
+    }
+  },
+  "result": {
+    "item": "pixfrimod:citrine_sword"
+  }
+}
