@@ -12,7 +12,7 @@ Go to the "Forge" directory if you want to use the mod with Forge or in the "Fab
 ### Forge:
 Just go in the build/libs folder and copy the jar to your mods folder
 
-### Fabric:
+### Fabric (not recommended at this time):
 Go in the build/libs folder and make sure you copy this jar: "pixfrimod-x.x.x-fabric-1.18.2"
 Just copy the jar in your mods folder 
 
