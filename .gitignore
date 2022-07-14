@@ -15,6 +15,11 @@ out
 
 # gradle
 build
+Fabric/.gradle
+Fabric/build
+Fabric/run
+Forge/build
+Forge/run
 .gradle
 
 # other
